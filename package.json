@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "babel-preset-react": "^6.24.1",
+    "glob": "^7.1.2",
+    "material-design-icons": "https://github.com/google/material-design-icons"
+  }
+}
