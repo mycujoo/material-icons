@@ -26,6 +26,16 @@ All icons are prefixed with `icon_`.
 import { icon_${name} as Icon } from 'material-icons/${category}'
 ```
 
+#### ES6
+
+```
+const IconsSocial = require('material-icons/social')
+const Icon3dRotation = IconsSocial.icon_3d_rotation
+
+// or
+const Icon3dRotation = require('material-icons/social').icon_3d_rotation
+```
+
 ### Finding the icon
 
 Visit the [icon list](https://material.io/icons/) and import from the category the icon is in.
