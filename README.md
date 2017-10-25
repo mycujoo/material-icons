@@ -1,6 +1,6 @@
 # React Material Icons
 
-Transparent React wrapper around Google's [Material Design Icons](material.io/icons/) with no external dependencies. 😍
+React wrapper around Google's [Material Design Icons](material.io/icons/) with no external dependencies. 😍
 
 ## Usage
 
