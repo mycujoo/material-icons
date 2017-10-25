@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const glob = require('glob')
+const babel = require('babel-core')
 
 /** Names of directories containing icons from google material icons. */
 const ICON_CATEGORIES = [
@@ -53,12 +54,15 @@ function buildSvg(source) {
         .map(icon => {
             const raw = fs.readFileSync(icon, 'utf8')
             const iconName = /svg\/production\/ic_(.*)_24px.svg/.exec(icon)[1]
-            const iconReplaced = templateIcon.replace('__TEMPLATE__', raw).replace('__ICON__NAME__', iconName)
+            const iconReplaced = templateIcon.replace('__TEMPLATE__', raw).replace('__ICON__NAME__', `icon_${iconName}`)
             file.push(iconReplaced)
         })
     const dir = `./${category}/`
     if (fs.existsSync(dir) === false) {
         fs.mkdirSync(dir, 0777)
     }
-    fs.writeFileSync(`${dir}/index.js`, file.join(''))
+    const transformed = babel.transform(file.join(''), {
+        presets: ['react']
+    })
+    fs.writeFileSync(`${dir}/index.js`, transformed.code)
 }
