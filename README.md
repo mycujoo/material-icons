@@ -18,14 +18,6 @@ import { icon_share as IconShare } from 'material-icons/social'
 
 And done! 🎉
 
-### Format
-
-All icons are prefixed with `icon_`.
-
-```
-import { icon_${name} as Icon } from 'material-icons/${category}'
-```
-
 #### ES6
 
 ```
@@ -34,6 +26,14 @@ const Icon3dRotation = IconsSocial.icon_3d_rotation
 
 // or
 const Icon3dRotation = require('material-icons/social').icon_3d_rotation
+```
+
+### Format
+
+All icons are prefixed with `icon_`.
+
+```
+import { icon_${name} as Icon } from 'material-icons/${category}'
 ```
 
 ### Finding the icon
