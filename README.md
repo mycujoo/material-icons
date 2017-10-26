@@ -81,7 +81,7 @@ yarn upgrade material-design-icons
 npm run build # OR node build.js
 ```
 
-Then open a PR.
+..and now open a PR.
 
 ## Versioning
 
