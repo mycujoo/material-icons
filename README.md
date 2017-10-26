@@ -64,8 +64,24 @@ These instructions will get you a copy of the project up and running on your loc
 git clone https://github.com/mycujoo/material-icons
 cd material-icons
 yarn
-npm run build OR node build.js
 ```
+
+### Building
+
+```
+npm run build # OR node build.js
+```
+
+## Missing icons?
+
+This library is using the [GitHub repository](https://github.com/google/material-design-icons) of the icons and building the library from that. If an icon is missing from there, then there is not much you can do. If the icon is present in there, then this library is out of date.
+
+```
+yarn upgrade material-design-icons
+npm run build # OR node build.js
+```
+
+Then open a PR.
 
 ## Versioning
 
