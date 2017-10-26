@@ -53,9 +53,12 @@ function buildSvg(source) {
     source.icons.filter(isFile)
         .map(icon => {
             const raw = fs.readFileSync(icon, 'utf8')
-            const iconName = /svg\/production\/ic_(.*)_24px.svg/.exec(icon)[1]
-            const iconReplaced = templateIcon.replace('__TEMPLATE__', raw).replace('__ICON__NAME__', `icon_${iconName}`)
-            file.push(iconReplaced)
+            const iconName = `icon_${/svg\/production\/ic_(.*)_24px.svg/.exec(icon)[1]}`
+            const iconNamePascalCase = `${iconName.replace(/(^|_)([a-zA-Z0-9])/g, (a,b,c) => c.toUpperCase())}`
+            const template = templateIcon.replace('__TEMPLATE__', raw)
+                .replace(/__ICON__NAME__PASCAL__CASE__/g, iconNamePascalCase)
+                .replace(/__ICON__NAME__/g, iconName)
+            file.push(template)
         })
     const dir = `./${category}/`
     if (fs.existsSync(dir) === false) {
