@@ -74,7 +74,7 @@ npm run build # OR node build.js
 
 ### Missing icons?
 
-This library is using the [GitHub repository](https://github.com/google/material-design-icons) of the icons and building the library from that. If an icon is missing from there, then there is not much you can do. If the icon is present in there, then this library is out of date.
+This library is using the [GitHub repository](https://github.com/google/material-design-icons) of the icons and building the components from that. If an icon is missing from there, then there is not much you can do. If the icon is present in there, then this library is out of date.
 
 ```
 yarn upgrade material-design-icons
