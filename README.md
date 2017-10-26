@@ -11,7 +11,7 @@ yarn add https://github.com/mycujoo/material-icons
 and then
 
 ```
-import { icon_share as IconShare } from 'material-icons/social'
+import { IconShare } from 'material-icons/social'
 
 <IconShare />
 ```
@@ -22,18 +22,18 @@ And done! 🎉
 
 ```
 const IconsSocial = require('material-icons/social')
-const Icon3dRotation = IconsSocial.icon_3d_rotation
+const IconShare = IconsSocial.IconShare
 
 // or
-const Icon3dRotation = require('material-icons/social').icon_3d_rotation
+const IconShare = require('material-icons/social').IconShare
 ```
 
 ### Format
 
-All icons are prefixed with `icon_`.
+All icons are prefixed with `Icon` and are in PascalCase.
 
 ```
-import { icon_${name} as Icon } from 'material-icons/${category}'
+import { ${name} as Icon } from 'material-icons/${category}'
 ```
 
 ### Finding the icon
@@ -42,10 +42,10 @@ Visit the [icon list](https://material.io/icons/) and import from the category t
 
 ### Example
 
-"3d rotation" icon in the "Action" category would be named `icon_3d_rotation` and would be imported from `'material-icons/action'`.
+"3d rotation" icon in the "Action" category would be named `Icon3dRotation` and would be imported from `'material-icons/action'`.
 
 ```
-import { icon_3d_rotation as IconRotation } from 'material-icons/action'
+import { Icon3dRotation } from 'material-icons/action'
 ```
 
 👌
