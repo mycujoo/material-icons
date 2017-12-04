@@ -18,16 +18,6 @@ import { IconShare } from 'material-icons/social'
 
 And done! 🎉
 
-#### ES6
-
-```
-const IconsSocial = require('material-icons/social')
-const IconShare = IconsSocial.IconShare
-
-// or
-const IconShare = require('material-icons/social').IconShare
-```
-
 ### Format
 
 All icons are prefixed with `Icon` and are in PascalCase.
