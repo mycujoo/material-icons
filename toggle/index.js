@@ -1,4 +1,92 @@
-const React = require('react');
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCheckBox", function() { return IconCheckBox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_check_box", function() { return IconCheckBox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCheckBoxOutlineBlank", function() { return IconCheckBoxOutlineBlank; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_check_box_outline_blank", function() { return IconCheckBoxOutlineBlank; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconIndeterminateCheckBox", function() { return IconIndeterminateCheckBox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_indeterminate_check_box", function() { return IconIndeterminateCheckBox; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRadioButtonChecked", function() { return IconRadioButtonChecked; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_radio_button_checked", function() { return IconRadioButtonChecked; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRadioButtonUnchecked", function() { return IconRadioButtonUnchecked; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_radio_button_unchecked", function() { return IconRadioButtonUnchecked; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStar", function() { return IconStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_star", function() { return IconStar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStarBorder", function() { return IconStarBorder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_star_border", function() { return IconStarBorder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStarHalf", function() { return IconStarHalf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_star_half", function() { return IconStarHalf; });
+const React = __webpack_require__(1);
 function IconCheckBox() {
     return React.createElement(
         "svg",
@@ -7,7 +95,7 @@ function IconCheckBox() {
     );
 }
 
-export { IconCheckBox, IconCheckBox as icon_check_box };
+
 function IconCheckBoxOutlineBlank() {
     return React.createElement(
         "svg",
@@ -16,7 +104,7 @@ function IconCheckBoxOutlineBlank() {
     );
 }
 
-export { IconCheckBoxOutlineBlank, IconCheckBoxOutlineBlank as icon_check_box_outline_blank };
+
 function IconIndeterminateCheckBox() {
     return React.createElement(
         "svg",
@@ -25,7 +113,7 @@ function IconIndeterminateCheckBox() {
     );
 }
 
-export { IconIndeterminateCheckBox, IconIndeterminateCheckBox as icon_indeterminate_check_box };
+
 function IconRadioButtonChecked() {
     return React.createElement(
         "svg",
@@ -34,7 +122,7 @@ function IconRadioButtonChecked() {
     );
 }
 
-export { IconRadioButtonChecked, IconRadioButtonChecked as icon_radio_button_checked };
+
 function IconRadioButtonUnchecked() {
     return React.createElement(
         "svg",
@@ -43,7 +131,7 @@ function IconRadioButtonUnchecked() {
     );
 }
 
-export { IconRadioButtonUnchecked, IconRadioButtonUnchecked as icon_radio_button_unchecked };
+
 function IconStar() {
     return React.createElement(
         "svg",
@@ -52,7 +140,7 @@ function IconStar() {
     );
 }
 
-export { IconStar, IconStar as icon_star };
+
 function IconStarBorder() {
     return React.createElement(
         "svg",
@@ -61,7 +149,7 @@ function IconStarBorder() {
     );
 }
 
-export { IconStarBorder, IconStarBorder as icon_star_border };
+
 function IconStarHalf() {
     return React.createElement(
         "svg",
@@ -70,4 +158,13 @@ function IconStarHalf() {
     );
 }
 
-export { IconStarHalf, IconStarHalf as icon_star_half };
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ })
+/******/ ]);

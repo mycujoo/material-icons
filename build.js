@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const glob = require('glob')
-const babel = require('babel-core')
+const webpack = require('webpack')
 
 /** Names of directories containing icons from google material icons. */
 const ICON_CATEGORIES = [
@@ -64,8 +64,39 @@ function buildSvg(source) {
     if (fs.existsSync(dir) === false) {
         fs.mkdirSync(dir, 0777)
     }
-    const transformed = babel.transform(file.join(''), {
-        presets: ['react']
+    fs.writeFileSync(`${dir}/src.js`, file.join(''))
+    const compiler = webpack({
+        entry: `${dir}/src.js`,
+        output: {
+            filename: 'index.js',
+            path: path.resolve(dir),
+            libraryTarget: 'commonjs2',
+        },
+        externals: {
+            'react': 'commonjs react'
+        },
+        module: {
+            loaders: [
+                {
+                    test: /\.jsx?$/,
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['react'],
+                    }
+                },
+            ],
+        },
     })
-    fs.writeFileSync(`${dir}/index.js`, transformed.code)
+    compiler.run(function(err, stats) {
+        console.log(stats.toString({
+            chunks: false,
+            colors: true
+        }))
+        console.log('==========================')
+        // cb && cb()
+    })
+    // const transformed = babel.transform(file.join(''), {
+    //     presets: ['react']
+    // })
+    // fs.writeFileSync(`${dir}/index.js`, transformed.code)
 }

@@ -1,4 +1,176 @@
-const React = require('react');
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBusiness", function() { return IconBusiness; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_business", function() { return IconBusiness; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCall", function() { return IconCall; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call", function() { return IconCall; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallEnd", function() { return IconCallEnd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_end", function() { return IconCallEnd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallMade", function() { return IconCallMade; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_made", function() { return IconCallMade; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallMerge", function() { return IconCallMerge; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_merge", function() { return IconCallMerge; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallMissed", function() { return IconCallMissed; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_missed", function() { return IconCallMissed; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallMissedOutgoing", function() { return IconCallMissedOutgoing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_missed_outgoing", function() { return IconCallMissedOutgoing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallReceived", function() { return IconCallReceived; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_received", function() { return IconCallReceived; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallSplit", function() { return IconCallSplit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_split", function() { return IconCallSplit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChat", function() { return IconChat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_chat", function() { return IconChat; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChatBubble", function() { return IconChatBubble; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_chat_bubble", function() { return IconChatBubble; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChatBubbleOutline", function() { return IconChatBubbleOutline; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_chat_bubble_outline", function() { return IconChatBubbleOutline; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconClearAll", function() { return IconClearAll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_clear_all", function() { return IconClearAll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconComment", function() { return IconComment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_comment", function() { return IconComment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContactMail", function() { return IconContactMail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_contact_mail", function() { return IconContactMail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContactPhone", function() { return IconContactPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_contact_phone", function() { return IconContactPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContacts", function() { return IconContacts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_contacts", function() { return IconContacts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDialerSip", function() { return IconDialerSip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_dialer_sip", function() { return IconDialerSip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDialpad", function() { return IconDialpad; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_dialpad", function() { return IconDialpad; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconEmail", function() { return IconEmail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_email", function() { return IconEmail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconForum", function() { return IconForum; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_forum", function() { return IconForum; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconImportContacts", function() { return IconImportContacts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_import_contacts", function() { return IconImportContacts; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconImportExport", function() { return IconImportExport; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_import_export", function() { return IconImportExport; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconInvertColorsOff", function() { return IconInvertColorsOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_invert_colors_off", function() { return IconInvertColorsOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLiveHelp", function() { return IconLiveHelp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_live_help", function() { return IconLiveHelp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLocationOff", function() { return IconLocationOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_location_off", function() { return IconLocationOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLocationOn", function() { return IconLocationOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_location_on", function() { return IconLocationOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMailOutline", function() { return IconMailOutline; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_mail_outline", function() { return IconMailOutline; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMessage", function() { return IconMessage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_message", function() { return IconMessage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNoSim", function() { return IconNoSim; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_no_sim", function() { return IconNoSim; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhone", function() { return IconPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_phone", function() { return IconPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhonelinkErase", function() { return IconPhonelinkErase; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_phonelink_erase", function() { return IconPhonelinkErase; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhonelinkLock", function() { return IconPhonelinkLock; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_phonelink_lock", function() { return IconPhonelinkLock; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhonelinkRing", function() { return IconPhonelinkRing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_phonelink_ring", function() { return IconPhonelinkRing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhonelinkSetup", function() { return IconPhonelinkSetup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_phonelink_setup", function() { return IconPhonelinkSetup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPortableWifiOff", function() { return IconPortableWifiOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_portable_wifi_off", function() { return IconPortableWifiOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPresentToAll", function() { return IconPresentToAll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_present_to_all", function() { return IconPresentToAll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRingVolume", function() { return IconRingVolume; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_ring_volume", function() { return IconRingVolume; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRssFeed", function() { return IconRssFeed; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rss_feed", function() { return IconRssFeed; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconScreenShare", function() { return IconScreenShare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_screen_share", function() { return IconScreenShare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSpeakerPhone", function() { return IconSpeakerPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_speaker_phone", function() { return IconSpeakerPhone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStayCurrentLandscape", function() { return IconStayCurrentLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_stay_current_landscape", function() { return IconStayCurrentLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStayCurrentPortrait", function() { return IconStayCurrentPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_stay_current_portrait", function() { return IconStayCurrentPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStayPrimaryLandscape", function() { return IconStayPrimaryLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_stay_primary_landscape", function() { return IconStayPrimaryLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStayPrimaryPortrait", function() { return IconStayPrimaryPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_stay_primary_portrait", function() { return IconStayPrimaryPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStopScreenShare", function() { return IconStopScreenShare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_stop_screen_share", function() { return IconStopScreenShare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSwapCalls", function() { return IconSwapCalls; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_swap_calls", function() { return IconSwapCalls; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTextsms", function() { return IconTextsms; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_textsms", function() { return IconTextsms; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVoicemail", function() { return IconVoicemail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_voicemail", function() { return IconVoicemail; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVpnKey", function() { return IconVpnKey; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_vpn_key", function() { return IconVpnKey; });
+const React = __webpack_require__(1);
 function IconBusiness() {
     return React.createElement(
         "svg",
@@ -7,7 +179,7 @@ function IconBusiness() {
     );
 }
 
-export { IconBusiness, IconBusiness as icon_business };
+
 function IconCall() {
     return React.createElement(
         "svg",
@@ -16,7 +188,7 @@ function IconCall() {
     );
 }
 
-export { IconCall, IconCall as icon_call };
+
 function IconCallEnd() {
     return React.createElement(
         "svg",
@@ -25,7 +197,7 @@ function IconCallEnd() {
     );
 }
 
-export { IconCallEnd, IconCallEnd as icon_call_end };
+
 function IconCallMade() {
     return React.createElement(
         "svg",
@@ -34,7 +206,7 @@ function IconCallMade() {
     );
 }
 
-export { IconCallMade, IconCallMade as icon_call_made };
+
 function IconCallMerge() {
     return React.createElement(
         "svg",
@@ -43,7 +215,7 @@ function IconCallMerge() {
     );
 }
 
-export { IconCallMerge, IconCallMerge as icon_call_merge };
+
 function IconCallMissed() {
     return React.createElement(
         "svg",
@@ -52,7 +224,7 @@ function IconCallMissed() {
     );
 }
 
-export { IconCallMissed, IconCallMissed as icon_call_missed };
+
 function IconCallMissedOutgoing() {
     return React.createElement(
         "svg",
@@ -61,7 +233,7 @@ function IconCallMissedOutgoing() {
     );
 }
 
-export { IconCallMissedOutgoing, IconCallMissedOutgoing as icon_call_missed_outgoing };
+
 function IconCallReceived() {
     return React.createElement(
         "svg",
@@ -70,7 +242,7 @@ function IconCallReceived() {
     );
 }
 
-export { IconCallReceived, IconCallReceived as icon_call_received };
+
 function IconCallSplit() {
     return React.createElement(
         "svg",
@@ -79,7 +251,7 @@ function IconCallSplit() {
     );
 }
 
-export { IconCallSplit, IconCallSplit as icon_call_split };
+
 function IconChat() {
     return React.createElement(
         "svg",
@@ -88,7 +260,7 @@ function IconChat() {
     );
 }
 
-export { IconChat, IconChat as icon_chat };
+
 function IconChatBubble() {
     return React.createElement(
         "svg",
@@ -97,7 +269,7 @@ function IconChatBubble() {
     );
 }
 
-export { IconChatBubble, IconChatBubble as icon_chat_bubble };
+
 function IconChatBubbleOutline() {
     return React.createElement(
         "svg",
@@ -106,7 +278,7 @@ function IconChatBubbleOutline() {
     );
 }
 
-export { IconChatBubbleOutline, IconChatBubbleOutline as icon_chat_bubble_outline };
+
 function IconClearAll() {
     return React.createElement(
         "svg",
@@ -115,7 +287,7 @@ function IconClearAll() {
     );
 }
 
-export { IconClearAll, IconClearAll as icon_clear_all };
+
 function IconComment() {
     return React.createElement(
         "svg",
@@ -124,7 +296,7 @@ function IconComment() {
     );
 }
 
-export { IconComment, IconComment as icon_comment };
+
 function IconContactMail() {
     return React.createElement(
         "svg",
@@ -133,7 +305,7 @@ function IconContactMail() {
     );
 }
 
-export { IconContactMail, IconContactMail as icon_contact_mail };
+
 function IconContactPhone() {
     return React.createElement(
         "svg",
@@ -142,7 +314,7 @@ function IconContactPhone() {
     );
 }
 
-export { IconContactPhone, IconContactPhone as icon_contact_phone };
+
 function IconContacts() {
     return React.createElement(
         "svg",
@@ -151,7 +323,7 @@ function IconContacts() {
     );
 }
 
-export { IconContacts, IconContacts as icon_contacts };
+
 function IconDialerSip() {
     return React.createElement(
         "svg",
@@ -160,7 +332,7 @@ function IconDialerSip() {
     );
 }
 
-export { IconDialerSip, IconDialerSip as icon_dialer_sip };
+
 function IconDialpad() {
     return React.createElement(
         "svg",
@@ -169,7 +341,7 @@ function IconDialpad() {
     );
 }
 
-export { IconDialpad, IconDialpad as icon_dialpad };
+
 function IconEmail() {
     return React.createElement(
         "svg",
@@ -178,7 +350,7 @@ function IconEmail() {
     );
 }
 
-export { IconEmail, IconEmail as icon_email };
+
 function IconForum() {
     return React.createElement(
         "svg",
@@ -187,7 +359,7 @@ function IconForum() {
     );
 }
 
-export { IconForum, IconForum as icon_forum };
+
 function IconImportContacts() {
     return React.createElement(
         "svg",
@@ -196,7 +368,7 @@ function IconImportContacts() {
     );
 }
 
-export { IconImportContacts, IconImportContacts as icon_import_contacts };
+
 function IconImportExport() {
     return React.createElement(
         "svg",
@@ -205,7 +377,7 @@ function IconImportExport() {
     );
 }
 
-export { IconImportExport, IconImportExport as icon_import_export };
+
 function IconInvertColorsOff() {
     return React.createElement(
         "svg",
@@ -214,7 +386,7 @@ function IconInvertColorsOff() {
     );
 }
 
-export { IconInvertColorsOff, IconInvertColorsOff as icon_invert_colors_off };
+
 function IconLiveHelp() {
     return React.createElement(
         "svg",
@@ -223,7 +395,7 @@ function IconLiveHelp() {
     );
 }
 
-export { IconLiveHelp, IconLiveHelp as icon_live_help };
+
 function IconLocationOff() {
     return React.createElement(
         "svg",
@@ -232,7 +404,7 @@ function IconLocationOff() {
     );
 }
 
-export { IconLocationOff, IconLocationOff as icon_location_off };
+
 function IconLocationOn() {
     return React.createElement(
         "svg",
@@ -241,7 +413,7 @@ function IconLocationOn() {
     );
 }
 
-export { IconLocationOn, IconLocationOn as icon_location_on };
+
 function IconMailOutline() {
     return React.createElement(
         "svg",
@@ -250,7 +422,7 @@ function IconMailOutline() {
     );
 }
 
-export { IconMailOutline, IconMailOutline as icon_mail_outline };
+
 function IconMessage() {
     return React.createElement(
         "svg",
@@ -259,7 +431,7 @@ function IconMessage() {
     );
 }
 
-export { IconMessage, IconMessage as icon_message };
+
 function IconNoSim() {
     return React.createElement(
         "svg",
@@ -268,7 +440,7 @@ function IconNoSim() {
     );
 }
 
-export { IconNoSim, IconNoSim as icon_no_sim };
+
 function IconPhone() {
     return React.createElement(
         "svg",
@@ -277,7 +449,7 @@ function IconPhone() {
     );
 }
 
-export { IconPhone, IconPhone as icon_phone };
+
 function IconPhonelinkErase() {
     return React.createElement(
         "svg",
@@ -286,7 +458,7 @@ function IconPhonelinkErase() {
     );
 }
 
-export { IconPhonelinkErase, IconPhonelinkErase as icon_phonelink_erase };
+
 function IconPhonelinkLock() {
     return React.createElement(
         "svg",
@@ -295,7 +467,7 @@ function IconPhonelinkLock() {
     );
 }
 
-export { IconPhonelinkLock, IconPhonelinkLock as icon_phonelink_lock };
+
 function IconPhonelinkRing() {
     return React.createElement(
         "svg",
@@ -304,7 +476,7 @@ function IconPhonelinkRing() {
     );
 }
 
-export { IconPhonelinkRing, IconPhonelinkRing as icon_phonelink_ring };
+
 function IconPhonelinkSetup() {
     return React.createElement(
         "svg",
@@ -313,7 +485,7 @@ function IconPhonelinkSetup() {
     );
 }
 
-export { IconPhonelinkSetup, IconPhonelinkSetup as icon_phonelink_setup };
+
 function IconPortableWifiOff() {
     return React.createElement(
         "svg",
@@ -322,7 +494,7 @@ function IconPortableWifiOff() {
     );
 }
 
-export { IconPortableWifiOff, IconPortableWifiOff as icon_portable_wifi_off };
+
 function IconPresentToAll() {
     return React.createElement(
         "svg",
@@ -331,7 +503,7 @@ function IconPresentToAll() {
     );
 }
 
-export { IconPresentToAll, IconPresentToAll as icon_present_to_all };
+
 function IconRingVolume() {
     return React.createElement(
         "svg",
@@ -340,7 +512,7 @@ function IconRingVolume() {
     );
 }
 
-export { IconRingVolume, IconRingVolume as icon_ring_volume };
+
 function IconRssFeed() {
     return React.createElement(
         "svg",
@@ -350,7 +522,7 @@ function IconRssFeed() {
     );
 }
 
-export { IconRssFeed, IconRssFeed as icon_rss_feed };
+
 function IconScreenShare() {
     return React.createElement(
         "svg",
@@ -359,7 +531,7 @@ function IconScreenShare() {
     );
 }
 
-export { IconScreenShare, IconScreenShare as icon_screen_share };
+
 function IconSpeakerPhone() {
     return React.createElement(
         "svg",
@@ -368,7 +540,7 @@ function IconSpeakerPhone() {
     );
 }
 
-export { IconSpeakerPhone, IconSpeakerPhone as icon_speaker_phone };
+
 function IconStayCurrentLandscape() {
     return React.createElement(
         "svg",
@@ -377,7 +549,7 @@ function IconStayCurrentLandscape() {
     );
 }
 
-export { IconStayCurrentLandscape, IconStayCurrentLandscape as icon_stay_current_landscape };
+
 function IconStayCurrentPortrait() {
     return React.createElement(
         "svg",
@@ -386,7 +558,7 @@ function IconStayCurrentPortrait() {
     );
 }
 
-export { IconStayCurrentPortrait, IconStayCurrentPortrait as icon_stay_current_portrait };
+
 function IconStayPrimaryLandscape() {
     return React.createElement(
         "svg",
@@ -395,7 +567,7 @@ function IconStayPrimaryLandscape() {
     );
 }
 
-export { IconStayPrimaryLandscape, IconStayPrimaryLandscape as icon_stay_primary_landscape };
+
 function IconStayPrimaryPortrait() {
     return React.createElement(
         "svg",
@@ -404,7 +576,7 @@ function IconStayPrimaryPortrait() {
     );
 }
 
-export { IconStayPrimaryPortrait, IconStayPrimaryPortrait as icon_stay_primary_portrait };
+
 function IconStopScreenShare() {
     return React.createElement(
         "svg",
@@ -413,7 +585,7 @@ function IconStopScreenShare() {
     );
 }
 
-export { IconStopScreenShare, IconStopScreenShare as icon_stop_screen_share };
+
 function IconSwapCalls() {
     return React.createElement(
         "svg",
@@ -422,7 +594,7 @@ function IconSwapCalls() {
     );
 }
 
-export { IconSwapCalls, IconSwapCalls as icon_swap_calls };
+
 function IconTextsms() {
     return React.createElement(
         "svg",
@@ -431,7 +603,7 @@ function IconTextsms() {
     );
 }
 
-export { IconTextsms, IconTextsms as icon_textsms };
+
 function IconVoicemail() {
     return React.createElement(
         "svg",
@@ -440,7 +612,7 @@ function IconVoicemail() {
     );
 }
 
-export { IconVoicemail, IconVoicemail as icon_voicemail };
+
 function IconVpnKey() {
     return React.createElement(
         "svg",
@@ -449,4 +621,13 @@ function IconVpnKey() {
     );
 }
 
-export { IconVpnKey, IconVpnKey as icon_vpn_key };
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ })
+/******/ ]);

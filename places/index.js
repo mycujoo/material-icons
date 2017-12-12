@@ -1,4 +1,114 @@
-const React = require('react');
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAcUnit", function() { return IconAcUnit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_ac_unit", function() { return IconAcUnit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAirportShuttle", function() { return IconAirportShuttle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_airport_shuttle", function() { return IconAirportShuttle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAllInclusive", function() { return IconAllInclusive; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_all_inclusive", function() { return IconAllInclusive; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBeachAccess", function() { return IconBeachAccess; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_beach_access", function() { return IconBeachAccess; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBusinessCenter", function() { return IconBusinessCenter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_business_center", function() { return IconBusinessCenter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCasino", function() { return IconCasino; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_casino", function() { return IconCasino; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChildCare", function() { return IconChildCare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_child_care", function() { return IconChildCare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChildFriendly", function() { return IconChildFriendly; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_child_friendly", function() { return IconChildFriendly; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFitnessCenter", function() { return IconFitnessCenter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_fitness_center", function() { return IconFitnessCenter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFreeBreakfast", function() { return IconFreeBreakfast; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_free_breakfast", function() { return IconFreeBreakfast; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGolfCourse", function() { return IconGolfCourse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_golf_course", function() { return IconGolfCourse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHotTub", function() { return IconHotTub; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_hot_tub", function() { return IconHotTub; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconKitchen", function() { return IconKitchen; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_kitchen", function() { return IconKitchen; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPool", function() { return IconPool; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_pool", function() { return IconPool; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRoomService", function() { return IconRoomService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_room_service", function() { return IconRoomService; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRvHookup", function() { return IconRvHookup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rv_hookup", function() { return IconRvHookup; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSmokeFree", function() { return IconSmokeFree; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_smoke_free", function() { return IconSmokeFree; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSmokingRooms", function() { return IconSmokingRooms; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_smoking_rooms", function() { return IconSmokingRooms; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSpa", function() { return IconSpa; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_spa", function() { return IconSpa; });
+const React = __webpack_require__(1);
 function IconAcUnit() {
     return React.createElement(
         "svg",
@@ -7,7 +117,7 @@ function IconAcUnit() {
     );
 }
 
-export { IconAcUnit, IconAcUnit as icon_ac_unit };
+
 function IconAirportShuttle() {
     return React.createElement(
         "svg",
@@ -16,7 +126,7 @@ function IconAirportShuttle() {
     );
 }
 
-export { IconAirportShuttle, IconAirportShuttle as icon_airport_shuttle };
+
 function IconAllInclusive() {
     return React.createElement(
         "svg",
@@ -25,7 +135,7 @@ function IconAllInclusive() {
     );
 }
 
-export { IconAllInclusive, IconAllInclusive as icon_all_inclusive };
+
 function IconBeachAccess() {
     return React.createElement(
         "svg",
@@ -34,7 +144,7 @@ function IconBeachAccess() {
     );
 }
 
-export { IconBeachAccess, IconBeachAccess as icon_beach_access };
+
 function IconBusinessCenter() {
     return React.createElement(
         "svg",
@@ -43,7 +153,7 @@ function IconBusinessCenter() {
     );
 }
 
-export { IconBusinessCenter, IconBusinessCenter as icon_business_center };
+
 function IconCasino() {
     return React.createElement(
         "svg",
@@ -52,7 +162,7 @@ function IconCasino() {
     );
 }
 
-export { IconCasino, IconCasino as icon_casino };
+
 function IconChildCare() {
     return React.createElement(
         "svg",
@@ -63,7 +173,7 @@ function IconChildCare() {
     );
 }
 
-export { IconChildCare, IconChildCare as icon_child_care };
+
 function IconChildFriendly() {
     return React.createElement(
         "svg",
@@ -72,7 +182,7 @@ function IconChildFriendly() {
     );
 }
 
-export { IconChildFriendly, IconChildFriendly as icon_child_friendly };
+
 function IconFitnessCenter() {
     return React.createElement(
         "svg",
@@ -81,7 +191,7 @@ function IconFitnessCenter() {
     );
 }
 
-export { IconFitnessCenter, IconFitnessCenter as icon_fitness_center };
+
 function IconFreeBreakfast() {
     return React.createElement(
         "svg",
@@ -90,7 +200,7 @@ function IconFreeBreakfast() {
     );
 }
 
-export { IconFreeBreakfast, IconFreeBreakfast as icon_free_breakfast };
+
 function IconGolfCourse() {
     return React.createElement(
         "svg",
@@ -100,7 +210,7 @@ function IconGolfCourse() {
     );
 }
 
-export { IconGolfCourse, IconGolfCourse as icon_golf_course };
+
 function IconHotTub() {
     return React.createElement(
         "svg",
@@ -110,7 +220,7 @@ function IconHotTub() {
     );
 }
 
-export { IconHotTub, IconHotTub as icon_hot_tub };
+
 function IconKitchen() {
     return React.createElement(
         "svg",
@@ -119,7 +229,7 @@ function IconKitchen() {
     );
 }
 
-export { IconKitchen, IconKitchen as icon_kitchen };
+
 function IconPool() {
     return React.createElement(
         "svg",
@@ -129,7 +239,7 @@ function IconPool() {
     );
 }
 
-export { IconPool, IconPool as icon_pool };
+
 function IconRoomService() {
     return React.createElement(
         "svg",
@@ -138,7 +248,7 @@ function IconRoomService() {
     );
 }
 
-export { IconRoomService, IconRoomService as icon_room_service };
+
 function IconRvHookup() {
     return React.createElement(
         "svg",
@@ -147,7 +257,7 @@ function IconRvHookup() {
     );
 }
 
-export { IconRvHookup, IconRvHookup as icon_rv_hookup };
+
 function IconSmokeFree() {
     return React.createElement(
         "svg",
@@ -156,7 +266,7 @@ function IconSmokeFree() {
     );
 }
 
-export { IconSmokeFree, IconSmokeFree as icon_smoke_free };
+
 function IconSmokingRooms() {
     return React.createElement(
         "svg",
@@ -165,7 +275,7 @@ function IconSmokingRooms() {
     );
 }
 
-export { IconSmokingRooms, IconSmokingRooms as icon_smoking_rooms };
+
 function IconSpa() {
     return React.createElement(
         "svg",
@@ -175,4 +285,13 @@ function IconSpa() {
     );
 }
 
-export { IconSpa, IconSpa as icon_spa };
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ })
+/******/ ]);

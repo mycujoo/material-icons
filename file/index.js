@@ -1,4 +1,104 @@
-const React = require('react');
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAttachment", function() { return IconAttachment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_attachment", function() { return IconAttachment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloud", function() { return IconCloud; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud", function() { return IconCloud; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudCircle", function() { return IconCloudCircle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_circle", function() { return IconCloudCircle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudDone", function() { return IconCloudDone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_done", function() { return IconCloudDone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudDownload", function() { return IconCloudDownload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_download", function() { return IconCloudDownload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudOff", function() { return IconCloudOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_off", function() { return IconCloudOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudQueue", function() { return IconCloudQueue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_queue", function() { return IconCloudQueue; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudUpload", function() { return IconCloudUpload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_upload", function() { return IconCloudUpload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCreateNewFolder", function() { return IconCreateNewFolder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_create_new_folder", function() { return IconCreateNewFolder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFileDownload", function() { return IconFileDownload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_file_download", function() { return IconFileDownload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFileUpload", function() { return IconFileUpload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_file_upload", function() { return IconFileUpload; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFolder", function() { return IconFolder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_folder", function() { return IconFolder; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFolderOpen", function() { return IconFolderOpen; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_folder_open", function() { return IconFolderOpen; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFolderShared", function() { return IconFolderShared; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_folder_shared", function() { return IconFolderShared; });
+const React = __webpack_require__(1);
 function IconAttachment() {
     return React.createElement(
         "svg",
@@ -7,7 +107,7 @@ function IconAttachment() {
     );
 }
 
-export { IconAttachment, IconAttachment as icon_attachment };
+
 function IconCloud() {
     return React.createElement(
         "svg",
@@ -16,7 +116,7 @@ function IconCloud() {
     );
 }
 
-export { IconCloud, IconCloud as icon_cloud };
+
 function IconCloudCircle() {
     return React.createElement(
         "svg",
@@ -25,7 +125,7 @@ function IconCloudCircle() {
     );
 }
 
-export { IconCloudCircle, IconCloudCircle as icon_cloud_circle };
+
 function IconCloudDone() {
     return React.createElement(
         "svg",
@@ -34,7 +134,7 @@ function IconCloudDone() {
     );
 }
 
-export { IconCloudDone, IconCloudDone as icon_cloud_done };
+
 function IconCloudDownload() {
     return React.createElement(
         "svg",
@@ -43,7 +143,7 @@ function IconCloudDownload() {
     );
 }
 
-export { IconCloudDownload, IconCloudDownload as icon_cloud_download };
+
 function IconCloudOff() {
     return React.createElement(
         "svg",
@@ -52,7 +152,7 @@ function IconCloudOff() {
     );
 }
 
-export { IconCloudOff, IconCloudOff as icon_cloud_off };
+
 function IconCloudQueue() {
     return React.createElement(
         "svg",
@@ -61,7 +161,7 @@ function IconCloudQueue() {
     );
 }
 
-export { IconCloudQueue, IconCloudQueue as icon_cloud_queue };
+
 function IconCloudUpload() {
     return React.createElement(
         "svg",
@@ -70,7 +170,7 @@ function IconCloudUpload() {
     );
 }
 
-export { IconCloudUpload, IconCloudUpload as icon_cloud_upload };
+
 function IconCreateNewFolder() {
     return React.createElement(
         "svg",
@@ -79,7 +179,7 @@ function IconCreateNewFolder() {
     );
 }
 
-export { IconCreateNewFolder, IconCreateNewFolder as icon_create_new_folder };
+
 function IconFileDownload() {
     return React.createElement(
         "svg",
@@ -88,7 +188,7 @@ function IconFileDownload() {
     );
 }
 
-export { IconFileDownload, IconFileDownload as icon_file_download };
+
 function IconFileUpload() {
     return React.createElement(
         "svg",
@@ -97,7 +197,7 @@ function IconFileUpload() {
     );
 }
 
-export { IconFileUpload, IconFileUpload as icon_file_upload };
+
 function IconFolder() {
     return React.createElement(
         "svg",
@@ -106,7 +206,7 @@ function IconFolder() {
     );
 }
 
-export { IconFolder, IconFolder as icon_folder };
+
 function IconFolderOpen() {
     return React.createElement(
         "svg",
@@ -115,7 +215,7 @@ function IconFolderOpen() {
     );
 }
 
-export { IconFolderOpen, IconFolderOpen as icon_folder_open };
+
 function IconFolderShared() {
     return React.createElement(
         "svg",
@@ -124,4 +224,13 @@ function IconFolderShared() {
     );
 }
 
-export { IconFolderShared, IconFolderShared as icon_folder_shared };
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ })
+/******/ ]);

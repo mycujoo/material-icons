@@ -1,4 +1,386 @@
-const React = require('react');
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAddAPhoto", function() { return IconAddAPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_add_a_photo", function() { return IconAddAPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAddToPhotos", function() { return IconAddToPhotos; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_add_to_photos", function() { return IconAddToPhotos; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAdjust", function() { return IconAdjust; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_adjust", function() { return IconAdjust; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAssistant", function() { return IconAssistant; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_assistant", function() { return IconAssistant; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAssistantPhoto", function() { return IconAssistantPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_assistant_photo", function() { return IconAssistantPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAudiotrack", function() { return IconAudiotrack; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_audiotrack", function() { return IconAudiotrack; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBlurCircular", function() { return IconBlurCircular; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_blur_circular", function() { return IconBlurCircular; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBlurLinear", function() { return IconBlurLinear; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_blur_linear", function() { return IconBlurLinear; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBlurOff", function() { return IconBlurOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_blur_off", function() { return IconBlurOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBlurOn", function() { return IconBlurOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_blur_on", function() { return IconBlurOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness1", function() { return IconBrightness1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_1", function() { return IconBrightness1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness2", function() { return IconBrightness2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_2", function() { return IconBrightness2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness3", function() { return IconBrightness3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_3", function() { return IconBrightness3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness4", function() { return IconBrightness4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_4", function() { return IconBrightness4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness5", function() { return IconBrightness5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_5", function() { return IconBrightness5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness6", function() { return IconBrightness6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_6", function() { return IconBrightness6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrightness7", function() { return IconBrightness7; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brightness_7", function() { return IconBrightness7; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrokenImage", function() { return IconBrokenImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_broken_image", function() { return IconBrokenImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBrush", function() { return IconBrush; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_brush", function() { return IconBrush; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBurstMode", function() { return IconBurstMode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_burst_mode", function() { return IconBurstMode; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCamera", function() { return IconCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera", function() { return IconCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraAlt", function() { return IconCameraAlt; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_alt", function() { return IconCameraAlt; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraFront", function() { return IconCameraFront; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_front", function() { return IconCameraFront; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraRear", function() { return IconCameraRear; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_rear", function() { return IconCameraRear; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraRoll", function() { return IconCameraRoll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_roll", function() { return IconCameraRoll; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCenterFocusStrong", function() { return IconCenterFocusStrong; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_center_focus_strong", function() { return IconCenterFocusStrong; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCenterFocusWeak", function() { return IconCenterFocusWeak; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_center_focus_weak", function() { return IconCenterFocusWeak; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCollections", function() { return IconCollections; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_collections", function() { return IconCollections; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCollectionsBookmark", function() { return IconCollectionsBookmark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_collections_bookmark", function() { return IconCollectionsBookmark; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconColorLens", function() { return IconColorLens; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_color_lens", function() { return IconColorLens; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconColorize", function() { return IconColorize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_colorize", function() { return IconColorize; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCompare", function() { return IconCompare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_compare", function() { return IconCompare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconControlPoint", function() { return IconControlPoint; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_control_point", function() { return IconControlPoint; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconControlPointDuplicate", function() { return IconControlPointDuplicate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_control_point_duplicate", function() { return IconControlPointDuplicate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCrop169", function() { return IconCrop169; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_16_9", function() { return IconCrop169; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCrop", function() { return IconCrop; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop", function() { return IconCrop; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCrop32", function() { return IconCrop32; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_3_2", function() { return IconCrop32; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCrop54", function() { return IconCrop54; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_5_4", function() { return IconCrop54; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCrop75", function() { return IconCrop75; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_7_5", function() { return IconCrop75; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropDin", function() { return IconCropDin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_din", function() { return IconCropDin; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropFree", function() { return IconCropFree; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_free", function() { return IconCropFree; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropLandscape", function() { return IconCropLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_landscape", function() { return IconCropLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropOriginal", function() { return IconCropOriginal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_original", function() { return IconCropOriginal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropPortrait", function() { return IconCropPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_portrait", function() { return IconCropPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropRotate", function() { return IconCropRotate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_rotate", function() { return IconCropRotate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropSquare", function() { return IconCropSquare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_square", function() { return IconCropSquare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDehaze", function() { return IconDehaze; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_dehaze", function() { return IconDehaze; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDetails", function() { return IconDetails; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_details", function() { return IconDetails; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconEdit", function() { return IconEdit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_edit", function() { return IconEdit; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposure", function() { return IconExposure; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure", function() { return IconExposure; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposureNeg1", function() { return IconExposureNeg1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_neg_1", function() { return IconExposureNeg1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposureNeg2", function() { return IconExposureNeg2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_neg_2", function() { return IconExposureNeg2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposurePlus1", function() { return IconExposurePlus1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_plus_1", function() { return IconExposurePlus1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposurePlus2", function() { return IconExposurePlus2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_plus_2", function() { return IconExposurePlus2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposureZero", function() { return IconExposureZero; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_zero", function() { return IconExposureZero; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter1", function() { return IconFilter1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_1", function() { return IconFilter1; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter2", function() { return IconFilter2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_2", function() { return IconFilter2; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter", function() { return IconFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter", function() { return IconFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter3", function() { return IconFilter3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_3", function() { return IconFilter3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter4", function() { return IconFilter4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_4", function() { return IconFilter4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter5", function() { return IconFilter5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_5", function() { return IconFilter5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter6", function() { return IconFilter6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_6", function() { return IconFilter6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter7", function() { return IconFilter7; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_7", function() { return IconFilter7; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter8", function() { return IconFilter8; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_8", function() { return IconFilter8; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter9", function() { return IconFilter9; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_9", function() { return IconFilter9; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter9Plus", function() { return IconFilter9Plus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_9_plus", function() { return IconFilter9Plus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterBAndW", function() { return IconFilterBAndW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_b_and_w", function() { return IconFilterBAndW; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterCenterFocus", function() { return IconFilterCenterFocus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_center_focus", function() { return IconFilterCenterFocus; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterDrama", function() { return IconFilterDrama; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_drama", function() { return IconFilterDrama; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterFrames", function() { return IconFilterFrames; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_frames", function() { return IconFilterFrames; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterHdr", function() { return IconFilterHdr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_hdr", function() { return IconFilterHdr; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterNone", function() { return IconFilterNone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_none", function() { return IconFilterNone; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterTiltShift", function() { return IconFilterTiltShift; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_tilt_shift", function() { return IconFilterTiltShift; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilterVintage", function() { return IconFilterVintage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_vintage", function() { return IconFilterVintage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlare", function() { return IconFlare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flare", function() { return IconFlare; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlashAuto", function() { return IconFlashAuto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flash_auto", function() { return IconFlashAuto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlashOff", function() { return IconFlashOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flash_off", function() { return IconFlashOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlashOn", function() { return IconFlashOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flash_on", function() { return IconFlashOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlip", function() { return IconFlip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flip", function() { return IconFlip; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGradient", function() { return IconGradient; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_gradient", function() { return IconGradient; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGrain", function() { return IconGrain; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_grain", function() { return IconGrain; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGridOff", function() { return IconGridOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_grid_off", function() { return IconGridOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGridOn", function() { return IconGridOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_grid_on", function() { return IconGridOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHdrOff", function() { return IconHdrOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_hdr_off", function() { return IconHdrOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHdrOn", function() { return IconHdrOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_hdr_on", function() { return IconHdrOn; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHdrStrong", function() { return IconHdrStrong; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_hdr_strong", function() { return IconHdrStrong; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHdrWeak", function() { return IconHdrWeak; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_hdr_weak", function() { return IconHdrWeak; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconHealing", function() { return IconHealing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_healing", function() { return IconHealing; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconImage", function() { return IconImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_image", function() { return IconImage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconImageAspectRatio", function() { return IconImageAspectRatio; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_image_aspect_ratio", function() { return IconImageAspectRatio; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconIso", function() { return IconIso; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_iso", function() { return IconIso; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLandscape", function() { return IconLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_landscape", function() { return IconLandscape; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLeakAdd", function() { return IconLeakAdd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_leak_add", function() { return IconLeakAdd; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLeakRemove", function() { return IconLeakRemove; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_leak_remove", function() { return IconLeakRemove; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLens", function() { return IconLens; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_lens", function() { return IconLens; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLinkedCamera", function() { return IconLinkedCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_linked_camera", function() { return IconLinkedCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooks", function() { return IconLooks; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks", function() { return IconLooks; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooks3", function() { return IconLooks3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_3", function() { return IconLooks3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooks4", function() { return IconLooks4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_4", function() { return IconLooks4; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooks5", function() { return IconLooks5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_5", function() { return IconLooks5; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooks6", function() { return IconLooks6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_6", function() { return IconLooks6; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooksOne", function() { return IconLooksOne; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_one", function() { return IconLooksOne; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLooksTwo", function() { return IconLooksTwo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_looks_two", function() { return IconLooksTwo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLoupe", function() { return IconLoupe; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_loupe", function() { return IconLoupe; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMonochromePhotos", function() { return IconMonochromePhotos; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_monochrome_photos", function() { return IconMonochromePhotos; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMovieCreation", function() { return IconMovieCreation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_movie_creation", function() { return IconMovieCreation; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMovieFilter", function() { return IconMovieFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_movie_filter", function() { return IconMovieFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMusicNote", function() { return IconMusicNote; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_music_note", function() { return IconMusicNote; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNature", function() { return IconNature; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_nature", function() { return IconNature; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNaturePeople", function() { return IconNaturePeople; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_nature_people", function() { return IconNaturePeople; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNavigateBefore", function() { return IconNavigateBefore; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_navigate_before", function() { return IconNavigateBefore; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNavigateNext", function() { return IconNavigateNext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_navigate_next", function() { return IconNavigateNext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPalette", function() { return IconPalette; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_palette", function() { return IconPalette; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanorama", function() { return IconPanorama; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama", function() { return IconPanorama; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanoramaFishEye", function() { return IconPanoramaFishEye; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama_fish_eye", function() { return IconPanoramaFishEye; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanoramaHorizontal", function() { return IconPanoramaHorizontal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama_horizontal", function() { return IconPanoramaHorizontal; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanoramaVertical", function() { return IconPanoramaVertical; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama_vertical", function() { return IconPanoramaVertical; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanoramaWideAngle", function() { return IconPanoramaWideAngle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama_wide_angle", function() { return IconPanoramaWideAngle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhoto", function() { return IconPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo", function() { return IconPhoto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoAlbum", function() { return IconPhotoAlbum; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_album", function() { return IconPhotoAlbum; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoCamera", function() { return IconPhotoCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_camera", function() { return IconPhotoCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoFilter", function() { return IconPhotoFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_filter", function() { return IconPhotoFilter; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoLibrary", function() { return IconPhotoLibrary; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_library", function() { return IconPhotoLibrary; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoSizeSelectActual", function() { return IconPhotoSizeSelectActual; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_size_select_actual", function() { return IconPhotoSizeSelectActual; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoSizeSelectLarge", function() { return IconPhotoSizeSelectLarge; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_size_select_large", function() { return IconPhotoSizeSelectLarge; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoSizeSelectSmall", function() { return IconPhotoSizeSelectSmall; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_size_select_small", function() { return IconPhotoSizeSelectSmall; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPictureAsPdf", function() { return IconPictureAsPdf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_picture_as_pdf", function() { return IconPictureAsPdf; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPortrait", function() { return IconPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_portrait", function() { return IconPortrait; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRemoveRedEye", function() { return IconRemoveRedEye; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_remove_red_eye", function() { return IconRemoveRedEye; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRotate90DegreesCcw", function() { return IconRotate90DegreesCcw; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rotate_90_degrees_ccw", function() { return IconRotate90DegreesCcw; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRotateLeft", function() { return IconRotateLeft; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rotate_left", function() { return IconRotateLeft; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRotateRight", function() { return IconRotateRight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rotate_right", function() { return IconRotateRight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSlideshow", function() { return IconSlideshow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_slideshow", function() { return IconSlideshow; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStraighten", function() { return IconStraighten; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_straighten", function() { return IconStraighten; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStyle", function() { return IconStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_style", function() { return IconStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSwitchCamera", function() { return IconSwitchCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_switch_camera", function() { return IconSwitchCamera; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSwitchVideo", function() { return IconSwitchVideo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_switch_video", function() { return IconSwitchVideo; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTagFaces", function() { return IconTagFaces; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_tag_faces", function() { return IconTagFaces; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTexture", function() { return IconTexture; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_texture", function() { return IconTexture; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimelapse", function() { return IconTimelapse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timelapse", function() { return IconTimelapse; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimer10", function() { return IconTimer10; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timer_10", function() { return IconTimer10; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimer", function() { return IconTimer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timer", function() { return IconTimer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimer3", function() { return IconTimer3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timer_3", function() { return IconTimer3; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimerOff", function() { return IconTimerOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timer_off", function() { return IconTimerOff; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTonality", function() { return IconTonality; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_tonality", function() { return IconTonality; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTransform", function() { return IconTransform; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_transform", function() { return IconTransform; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTune", function() { return IconTune; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_tune", function() { return IconTune; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconViewComfy", function() { return IconViewComfy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_view_comfy", function() { return IconViewComfy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconViewCompact", function() { return IconViewCompact; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_view_compact", function() { return IconViewCompact; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVignette", function() { return IconVignette; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_vignette", function() { return IconVignette; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbAuto", function() { return IconWbAuto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_auto", function() { return IconWbAuto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbCloudy", function() { return IconWbCloudy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_cloudy", function() { return IconWbCloudy; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbIncandescent", function() { return IconWbIncandescent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_incandescent", function() { return IconWbIncandescent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbIridescent", function() { return IconWbIridescent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_iridescent", function() { return IconWbIridescent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbSunny", function() { return IconWbSunny; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_sunny", function() { return IconWbSunny; });
+const React = __webpack_require__(1);
 function IconAddAPhoto() {
     return React.createElement(
         "svg",
@@ -7,7 +389,7 @@ function IconAddAPhoto() {
     );
 }
 
-export { IconAddAPhoto, IconAddAPhoto as icon_add_a_photo };
+
 function IconAddToPhotos() {
     return React.createElement(
         "svg",
@@ -16,7 +398,7 @@ function IconAddToPhotos() {
     );
 }
 
-export { IconAddToPhotos, IconAddToPhotos as icon_add_to_photos };
+
 function IconAdjust() {
     return React.createElement(
         "svg",
@@ -25,7 +407,7 @@ function IconAdjust() {
     );
 }
 
-export { IconAdjust, IconAdjust as icon_adjust };
+
 function IconAssistant() {
     return React.createElement(
         "svg",
@@ -34,7 +416,7 @@ function IconAssistant() {
     );
 }
 
-export { IconAssistant, IconAssistant as icon_assistant };
+
 function IconAssistantPhoto() {
     return React.createElement(
         "svg",
@@ -43,7 +425,7 @@ function IconAssistantPhoto() {
     );
 }
 
-export { IconAssistantPhoto, IconAssistantPhoto as icon_assistant_photo };
+
 function IconAudiotrack() {
     return React.createElement(
         "svg",
@@ -52,7 +434,7 @@ function IconAudiotrack() {
     );
 }
 
-export { IconAudiotrack, IconAudiotrack as icon_audiotrack };
+
 function IconBlurCircular() {
     return React.createElement(
         "svg",
@@ -61,7 +443,7 @@ function IconBlurCircular() {
     );
 }
 
-export { IconBlurCircular, IconBlurCircular as icon_blur_circular };
+
 function IconBlurLinear() {
     return React.createElement(
         "svg",
@@ -70,7 +452,7 @@ function IconBlurLinear() {
     );
 }
 
-export { IconBlurLinear, IconBlurLinear as icon_blur_linear };
+
 function IconBlurOff() {
     return React.createElement(
         "svg",
@@ -79,7 +461,7 @@ function IconBlurOff() {
     );
 }
 
-export { IconBlurOff, IconBlurOff as icon_blur_off };
+
 function IconBlurOn() {
     return React.createElement(
         "svg",
@@ -88,7 +470,7 @@ function IconBlurOn() {
     );
 }
 
-export { IconBlurOn, IconBlurOn as icon_blur_on };
+
 function IconBrightness1() {
     return React.createElement(
         "svg",
@@ -97,7 +479,7 @@ function IconBrightness1() {
     );
 }
 
-export { IconBrightness1, IconBrightness1 as icon_brightness_1 };
+
 function IconBrightness2() {
     return React.createElement(
         "svg",
@@ -106,7 +488,7 @@ function IconBrightness2() {
     );
 }
 
-export { IconBrightness2, IconBrightness2 as icon_brightness_2 };
+
 function IconBrightness3() {
     return React.createElement(
         "svg",
@@ -115,7 +497,7 @@ function IconBrightness3() {
     );
 }
 
-export { IconBrightness3, IconBrightness3 as icon_brightness_3 };
+
 function IconBrightness4() {
     return React.createElement(
         "svg",
@@ -124,7 +506,7 @@ function IconBrightness4() {
     );
 }
 
-export { IconBrightness4, IconBrightness4 as icon_brightness_4 };
+
 function IconBrightness5() {
     return React.createElement(
         "svg",
@@ -133,7 +515,7 @@ function IconBrightness5() {
     );
 }
 
-export { IconBrightness5, IconBrightness5 as icon_brightness_5 };
+
 function IconBrightness6() {
     return React.createElement(
         "svg",
@@ -142,7 +524,7 @@ function IconBrightness6() {
     );
 }
 
-export { IconBrightness6, IconBrightness6 as icon_brightness_6 };
+
 function IconBrightness7() {
     return React.createElement(
         "svg",
@@ -151,7 +533,7 @@ function IconBrightness7() {
     );
 }
 
-export { IconBrightness7, IconBrightness7 as icon_brightness_7 };
+
 function IconBrokenImage() {
     return React.createElement(
         "svg",
@@ -160,7 +542,7 @@ function IconBrokenImage() {
     );
 }
 
-export { IconBrokenImage, IconBrokenImage as icon_broken_image };
+
 function IconBrush() {
     return React.createElement(
         "svg",
@@ -169,7 +551,7 @@ function IconBrush() {
     );
 }
 
-export { IconBrush, IconBrush as icon_brush };
+
 function IconBurstMode() {
     return React.createElement(
         "svg",
@@ -178,7 +560,7 @@ function IconBurstMode() {
     );
 }
 
-export { IconBurstMode, IconBurstMode as icon_burst_mode };
+
 function IconCamera() {
     return React.createElement(
         "svg",
@@ -187,7 +569,7 @@ function IconCamera() {
     );
 }
 
-export { IconCamera, IconCamera as icon_camera };
+
 function IconCameraAlt() {
     return React.createElement(
         "svg",
@@ -197,7 +579,7 @@ function IconCameraAlt() {
     );
 }
 
-export { IconCameraAlt, IconCameraAlt as icon_camera_alt };
+
 function IconCameraFront() {
     return React.createElement(
         "svg",
@@ -206,7 +588,7 @@ function IconCameraFront() {
     );
 }
 
-export { IconCameraFront, IconCameraFront as icon_camera_front };
+
 function IconCameraRear() {
     return React.createElement(
         "svg",
@@ -215,7 +597,7 @@ function IconCameraRear() {
     );
 }
 
-export { IconCameraRear, IconCameraRear as icon_camera_rear };
+
 function IconCameraRoll() {
     return React.createElement(
         "svg",
@@ -224,7 +606,7 @@ function IconCameraRoll() {
     );
 }
 
-export { IconCameraRoll, IconCameraRoll as icon_camera_roll };
+
 function IconCenterFocusStrong() {
     return React.createElement(
         "svg",
@@ -233,7 +615,7 @@ function IconCenterFocusStrong() {
     );
 }
 
-export { IconCenterFocusStrong, IconCenterFocusStrong as icon_center_focus_strong };
+
 function IconCenterFocusWeak() {
     return React.createElement(
         "svg",
@@ -242,7 +624,7 @@ function IconCenterFocusWeak() {
     );
 }
 
-export { IconCenterFocusWeak, IconCenterFocusWeak as icon_center_focus_weak };
+
 function IconCollections() {
     return React.createElement(
         "svg",
@@ -251,7 +633,7 @@ function IconCollections() {
     );
 }
 
-export { IconCollections, IconCollections as icon_collections };
+
 function IconCollectionsBookmark() {
     return React.createElement(
         "svg",
@@ -260,7 +642,7 @@ function IconCollectionsBookmark() {
     );
 }
 
-export { IconCollectionsBookmark, IconCollectionsBookmark as icon_collections_bookmark };
+
 function IconColorLens() {
     return React.createElement(
         "svg",
@@ -269,7 +651,7 @@ function IconColorLens() {
     );
 }
 
-export { IconColorLens, IconColorLens as icon_color_lens };
+
 function IconColorize() {
     return React.createElement(
         "svg",
@@ -278,7 +660,7 @@ function IconColorize() {
     );
 }
 
-export { IconColorize, IconColorize as icon_colorize };
+
 function IconCompare() {
     return React.createElement(
         "svg",
@@ -287,7 +669,7 @@ function IconCompare() {
     );
 }
 
-export { IconCompare, IconCompare as icon_compare };
+
 function IconControlPoint() {
     return React.createElement(
         "svg",
@@ -296,7 +678,7 @@ function IconControlPoint() {
     );
 }
 
-export { IconControlPoint, IconControlPoint as icon_control_point };
+
 function IconControlPointDuplicate() {
     return React.createElement(
         "svg",
@@ -305,7 +687,7 @@ function IconControlPointDuplicate() {
     );
 }
 
-export { IconControlPointDuplicate, IconControlPointDuplicate as icon_control_point_duplicate };
+
 function IconCrop169() {
     return React.createElement(
         "svg",
@@ -314,7 +696,7 @@ function IconCrop169() {
     );
 }
 
-export { IconCrop169, IconCrop169 as icon_crop_16_9 };
+
 function IconCrop() {
     return React.createElement(
         "svg",
@@ -323,7 +705,7 @@ function IconCrop() {
     );
 }
 
-export { IconCrop, IconCrop as icon_crop };
+
 function IconCrop32() {
     return React.createElement(
         "svg",
@@ -332,7 +714,7 @@ function IconCrop32() {
     );
 }
 
-export { IconCrop32, IconCrop32 as icon_crop_3_2 };
+
 function IconCrop54() {
     return React.createElement(
         "svg",
@@ -341,7 +723,7 @@ function IconCrop54() {
     );
 }
 
-export { IconCrop54, IconCrop54 as icon_crop_5_4 };
+
 function IconCrop75() {
     return React.createElement(
         "svg",
@@ -350,7 +732,7 @@ function IconCrop75() {
     );
 }
 
-export { IconCrop75, IconCrop75 as icon_crop_7_5 };
+
 function IconCropDin() {
     return React.createElement(
         "svg",
@@ -359,7 +741,7 @@ function IconCropDin() {
     );
 }
 
-export { IconCropDin, IconCropDin as icon_crop_din };
+
 function IconCropFree() {
     return React.createElement(
         "svg",
@@ -368,7 +750,7 @@ function IconCropFree() {
     );
 }
 
-export { IconCropFree, IconCropFree as icon_crop_free };
+
 function IconCropLandscape() {
     return React.createElement(
         "svg",
@@ -377,7 +759,7 @@ function IconCropLandscape() {
     );
 }
 
-export { IconCropLandscape, IconCropLandscape as icon_crop_landscape };
+
 function IconCropOriginal() {
     return React.createElement(
         "svg",
@@ -386,7 +768,7 @@ function IconCropOriginal() {
     );
 }
 
-export { IconCropOriginal, IconCropOriginal as icon_crop_original };
+
 function IconCropPortrait() {
     return React.createElement(
         "svg",
@@ -395,7 +777,7 @@ function IconCropPortrait() {
     );
 }
 
-export { IconCropPortrait, IconCropPortrait as icon_crop_portrait };
+
 function IconCropRotate() {
     return React.createElement(
         "svg",
@@ -404,7 +786,7 @@ function IconCropRotate() {
     );
 }
 
-export { IconCropRotate, IconCropRotate as icon_crop_rotate };
+
 function IconCropSquare() {
     return React.createElement(
         "svg",
@@ -413,7 +795,7 @@ function IconCropSquare() {
     );
 }
 
-export { IconCropSquare, IconCropSquare as icon_crop_square };
+
 function IconDehaze() {
     return React.createElement(
         "svg",
@@ -422,7 +804,7 @@ function IconDehaze() {
     );
 }
 
-export { IconDehaze, IconDehaze as icon_dehaze };
+
 function IconDetails() {
     return React.createElement(
         "svg",
@@ -431,7 +813,7 @@ function IconDetails() {
     );
 }
 
-export { IconDetails, IconDetails as icon_details };
+
 function IconEdit() {
     return React.createElement(
         "svg",
@@ -440,7 +822,7 @@ function IconEdit() {
     );
 }
 
-export { IconEdit, IconEdit as icon_edit };
+
 function IconExposure() {
     return React.createElement(
         "svg",
@@ -449,7 +831,7 @@ function IconExposure() {
     );
 }
 
-export { IconExposure, IconExposure as icon_exposure };
+
 function IconExposureNeg1() {
     return React.createElement(
         "svg",
@@ -458,7 +840,7 @@ function IconExposureNeg1() {
     );
 }
 
-export { IconExposureNeg1, IconExposureNeg1 as icon_exposure_neg_1 };
+
 function IconExposureNeg2() {
     return React.createElement(
         "svg",
@@ -467,7 +849,7 @@ function IconExposureNeg2() {
     );
 }
 
-export { IconExposureNeg2, IconExposureNeg2 as icon_exposure_neg_2 };
+
 function IconExposurePlus1() {
     return React.createElement(
         "svg",
@@ -476,7 +858,7 @@ function IconExposurePlus1() {
     );
 }
 
-export { IconExposurePlus1, IconExposurePlus1 as icon_exposure_plus_1 };
+
 function IconExposurePlus2() {
     return React.createElement(
         "svg",
@@ -485,7 +867,7 @@ function IconExposurePlus2() {
     );
 }
 
-export { IconExposurePlus2, IconExposurePlus2 as icon_exposure_plus_2 };
+
 function IconExposureZero() {
     return React.createElement(
         "svg",
@@ -494,7 +876,7 @@ function IconExposureZero() {
     );
 }
 
-export { IconExposureZero, IconExposureZero as icon_exposure_zero };
+
 function IconFilter1() {
     return React.createElement(
         "svg",
@@ -503,7 +885,7 @@ function IconFilter1() {
     );
 }
 
-export { IconFilter1, IconFilter1 as icon_filter_1 };
+
 function IconFilter2() {
     return React.createElement(
         "svg",
@@ -512,7 +894,7 @@ function IconFilter2() {
     );
 }
 
-export { IconFilter2, IconFilter2 as icon_filter_2 };
+
 function IconFilter() {
     return React.createElement(
         "svg",
@@ -521,7 +903,7 @@ function IconFilter() {
     );
 }
 
-export { IconFilter, IconFilter as icon_filter };
+
 function IconFilter3() {
     return React.createElement(
         "svg",
@@ -530,7 +912,7 @@ function IconFilter3() {
     );
 }
 
-export { IconFilter3, IconFilter3 as icon_filter_3 };
+
 function IconFilter4() {
     return React.createElement(
         "svg",
@@ -539,7 +921,7 @@ function IconFilter4() {
     );
 }
 
-export { IconFilter4, IconFilter4 as icon_filter_4 };
+
 function IconFilter5() {
     return React.createElement(
         "svg",
@@ -548,7 +930,7 @@ function IconFilter5() {
     );
 }
 
-export { IconFilter5, IconFilter5 as icon_filter_5 };
+
 function IconFilter6() {
     return React.createElement(
         "svg",
@@ -557,7 +939,7 @@ function IconFilter6() {
     );
 }
 
-export { IconFilter6, IconFilter6 as icon_filter_6 };
+
 function IconFilter7() {
     return React.createElement(
         "svg",
@@ -566,7 +948,7 @@ function IconFilter7() {
     );
 }
 
-export { IconFilter7, IconFilter7 as icon_filter_7 };
+
 function IconFilter8() {
     return React.createElement(
         "svg",
@@ -575,7 +957,7 @@ function IconFilter8() {
     );
 }
 
-export { IconFilter8, IconFilter8 as icon_filter_8 };
+
 function IconFilter9() {
     return React.createElement(
         "svg",
@@ -584,7 +966,7 @@ function IconFilter9() {
     );
 }
 
-export { IconFilter9, IconFilter9 as icon_filter_9 };
+
 function IconFilter9Plus() {
     return React.createElement(
         "svg",
@@ -593,7 +975,7 @@ function IconFilter9Plus() {
     );
 }
 
-export { IconFilter9Plus, IconFilter9Plus as icon_filter_9_plus };
+
 function IconFilterBAndW() {
     return React.createElement(
         "svg",
@@ -602,7 +984,7 @@ function IconFilterBAndW() {
     );
 }
 
-export { IconFilterBAndW, IconFilterBAndW as icon_filter_b_and_w };
+
 function IconFilterCenterFocus() {
     return React.createElement(
         "svg",
@@ -611,7 +993,7 @@ function IconFilterCenterFocus() {
     );
 }
 
-export { IconFilterCenterFocus, IconFilterCenterFocus as icon_filter_center_focus };
+
 function IconFilterDrama() {
     return React.createElement(
         "svg",
@@ -620,7 +1002,7 @@ function IconFilterDrama() {
     );
 }
 
-export { IconFilterDrama, IconFilterDrama as icon_filter_drama };
+
 function IconFilterFrames() {
     return React.createElement(
         "svg",
@@ -629,7 +1011,7 @@ function IconFilterFrames() {
     );
 }
 
-export { IconFilterFrames, IconFilterFrames as icon_filter_frames };
+
 function IconFilterHdr() {
     return React.createElement(
         "svg",
@@ -638,7 +1020,7 @@ function IconFilterHdr() {
     );
 }
 
-export { IconFilterHdr, IconFilterHdr as icon_filter_hdr };
+
 function IconFilterNone() {
     return React.createElement(
         "svg",
@@ -647,7 +1029,7 @@ function IconFilterNone() {
     );
 }
 
-export { IconFilterNone, IconFilterNone as icon_filter_none };
+
 function IconFilterTiltShift() {
     return React.createElement(
         "svg",
@@ -656,7 +1038,7 @@ function IconFilterTiltShift() {
     );
 }
 
-export { IconFilterTiltShift, IconFilterTiltShift as icon_filter_tilt_shift };
+
 function IconFilterVintage() {
     return React.createElement(
         "svg",
@@ -665,7 +1047,7 @@ function IconFilterVintage() {
     );
 }
 
-export { IconFilterVintage, IconFilterVintage as icon_filter_vintage };
+
 function IconFlare() {
     return React.createElement(
         "svg",
@@ -674,7 +1056,7 @@ function IconFlare() {
     );
 }
 
-export { IconFlare, IconFlare as icon_flare };
+
 function IconFlashAuto() {
     return React.createElement(
         "svg",
@@ -683,7 +1065,7 @@ function IconFlashAuto() {
     );
 }
 
-export { IconFlashAuto, IconFlashAuto as icon_flash_auto };
+
 function IconFlashOff() {
     return React.createElement(
         "svg",
@@ -692,7 +1074,7 @@ function IconFlashOff() {
     );
 }
 
-export { IconFlashOff, IconFlashOff as icon_flash_off };
+
 function IconFlashOn() {
     return React.createElement(
         "svg",
@@ -701,7 +1083,7 @@ function IconFlashOn() {
     );
 }
 
-export { IconFlashOn, IconFlashOn as icon_flash_on };
+
 function IconFlip() {
     return React.createElement(
         "svg",
@@ -710,7 +1092,7 @@ function IconFlip() {
     );
 }
 
-export { IconFlip, IconFlip as icon_flip };
+
 function IconGradient() {
     return React.createElement(
         "svg",
@@ -719,7 +1101,7 @@ function IconGradient() {
     );
 }
 
-export { IconGradient, IconGradient as icon_gradient };
+
 function IconGrain() {
     return React.createElement(
         "svg",
@@ -728,7 +1110,7 @@ function IconGrain() {
     );
 }
 
-export { IconGrain, IconGrain as icon_grain };
+
 function IconGridOff() {
     return React.createElement(
         "svg",
@@ -737,7 +1119,7 @@ function IconGridOff() {
     );
 }
 
-export { IconGridOff, IconGridOff as icon_grid_off };
+
 function IconGridOn() {
     return React.createElement(
         "svg",
@@ -746,7 +1128,7 @@ function IconGridOn() {
     );
 }
 
-export { IconGridOn, IconGridOn as icon_grid_on };
+
 function IconHdrOff() {
     return React.createElement(
         "svg",
@@ -755,7 +1137,7 @@ function IconHdrOff() {
     );
 }
 
-export { IconHdrOff, IconHdrOff as icon_hdr_off };
+
 function IconHdrOn() {
     return React.createElement(
         "svg",
@@ -764,7 +1146,7 @@ function IconHdrOn() {
     );
 }
 
-export { IconHdrOn, IconHdrOn as icon_hdr_on };
+
 function IconHdrStrong() {
     return React.createElement(
         "svg",
@@ -773,7 +1155,7 @@ function IconHdrStrong() {
     );
 }
 
-export { IconHdrStrong, IconHdrStrong as icon_hdr_strong };
+
 function IconHdrWeak() {
     return React.createElement(
         "svg",
@@ -782,7 +1164,7 @@ function IconHdrWeak() {
     );
 }
 
-export { IconHdrWeak, IconHdrWeak as icon_hdr_weak };
+
 function IconHealing() {
     return React.createElement(
         "svg",
@@ -791,7 +1173,7 @@ function IconHealing() {
     );
 }
 
-export { IconHealing, IconHealing as icon_healing };
+
 function IconImage() {
     return React.createElement(
         "svg",
@@ -800,7 +1182,7 @@ function IconImage() {
     );
 }
 
-export { IconImage, IconImage as icon_image };
+
 function IconImageAspectRatio() {
     return React.createElement(
         "svg",
@@ -809,7 +1191,7 @@ function IconImageAspectRatio() {
     );
 }
 
-export { IconImageAspectRatio, IconImageAspectRatio as icon_image_aspect_ratio };
+
 function IconIso() {
     return React.createElement(
         "svg",
@@ -818,7 +1200,7 @@ function IconIso() {
     );
 }
 
-export { IconIso, IconIso as icon_iso };
+
 function IconLandscape() {
     return React.createElement(
         "svg",
@@ -827,7 +1209,7 @@ function IconLandscape() {
     );
 }
 
-export { IconLandscape, IconLandscape as icon_landscape };
+
 function IconLeakAdd() {
     return React.createElement(
         "svg",
@@ -836,7 +1218,7 @@ function IconLeakAdd() {
     );
 }
 
-export { IconLeakAdd, IconLeakAdd as icon_leak_add };
+
 function IconLeakRemove() {
     return React.createElement(
         "svg",
@@ -845,7 +1227,7 @@ function IconLeakRemove() {
     );
 }
 
-export { IconLeakRemove, IconLeakRemove as icon_leak_remove };
+
 function IconLens() {
     return React.createElement(
         "svg",
@@ -854,7 +1236,7 @@ function IconLens() {
     );
 }
 
-export { IconLens, IconLens as icon_lens };
+
 function IconLinkedCamera() {
     return React.createElement(
         "svg",
@@ -865,7 +1247,7 @@ function IconLinkedCamera() {
     );
 }
 
-export { IconLinkedCamera, IconLinkedCamera as icon_linked_camera };
+
 function IconLooks() {
     return React.createElement(
         "svg",
@@ -874,7 +1256,7 @@ function IconLooks() {
     );
 }
 
-export { IconLooks, IconLooks as icon_looks };
+
 function IconLooks3() {
     return React.createElement(
         "svg",
@@ -883,7 +1265,7 @@ function IconLooks3() {
     );
 }
 
-export { IconLooks3, IconLooks3 as icon_looks_3 };
+
 function IconLooks4() {
     return React.createElement(
         "svg",
@@ -892,7 +1274,7 @@ function IconLooks4() {
     );
 }
 
-export { IconLooks4, IconLooks4 as icon_looks_4 };
+
 function IconLooks5() {
     return React.createElement(
         "svg",
@@ -901,7 +1283,7 @@ function IconLooks5() {
     );
 }
 
-export { IconLooks5, IconLooks5 as icon_looks_5 };
+
 function IconLooks6() {
     return React.createElement(
         "svg",
@@ -910,7 +1292,7 @@ function IconLooks6() {
     );
 }
 
-export { IconLooks6, IconLooks6 as icon_looks_6 };
+
 function IconLooksOne() {
     return React.createElement(
         "svg",
@@ -919,7 +1301,7 @@ function IconLooksOne() {
     );
 }
 
-export { IconLooksOne, IconLooksOne as icon_looks_one };
+
 function IconLooksTwo() {
     return React.createElement(
         "svg",
@@ -928,7 +1310,7 @@ function IconLooksTwo() {
     );
 }
 
-export { IconLooksTwo, IconLooksTwo as icon_looks_two };
+
 function IconLoupe() {
     return React.createElement(
         "svg",
@@ -937,7 +1319,7 @@ function IconLoupe() {
     );
 }
 
-export { IconLoupe, IconLoupe as icon_loupe };
+
 function IconMonochromePhotos() {
     return React.createElement(
         "svg",
@@ -946,7 +1328,7 @@ function IconMonochromePhotos() {
     );
 }
 
-export { IconMonochromePhotos, IconMonochromePhotos as icon_monochrome_photos };
+
 function IconMovieCreation() {
     return React.createElement(
         "svg",
@@ -955,7 +1337,7 @@ function IconMovieCreation() {
     );
 }
 
-export { IconMovieCreation, IconMovieCreation as icon_movie_creation };
+
 function IconMovieFilter() {
     return React.createElement(
         "svg",
@@ -964,7 +1346,7 @@ function IconMovieFilter() {
     );
 }
 
-export { IconMovieFilter, IconMovieFilter as icon_movie_filter };
+
 function IconMusicNote() {
     return React.createElement(
         "svg",
@@ -973,7 +1355,7 @@ function IconMusicNote() {
     );
 }
 
-export { IconMusicNote, IconMusicNote as icon_music_note };
+
 function IconNature() {
     return React.createElement(
         "svg",
@@ -982,7 +1364,7 @@ function IconNature() {
     );
 }
 
-export { IconNature, IconNature as icon_nature };
+
 function IconNaturePeople() {
     return React.createElement(
         "svg",
@@ -991,7 +1373,7 @@ function IconNaturePeople() {
     );
 }
 
-export { IconNaturePeople, IconNaturePeople as icon_nature_people };
+
 function IconNavigateBefore() {
     return React.createElement(
         "svg",
@@ -1000,7 +1382,7 @@ function IconNavigateBefore() {
     );
 }
 
-export { IconNavigateBefore, IconNavigateBefore as icon_navigate_before };
+
 function IconNavigateNext() {
     return React.createElement(
         "svg",
@@ -1009,7 +1391,7 @@ function IconNavigateNext() {
     );
 }
 
-export { IconNavigateNext, IconNavigateNext as icon_navigate_next };
+
 function IconPalette() {
     return React.createElement(
         "svg",
@@ -1018,7 +1400,7 @@ function IconPalette() {
     );
 }
 
-export { IconPalette, IconPalette as icon_palette };
+
 function IconPanorama() {
     return React.createElement(
         "svg",
@@ -1027,7 +1409,7 @@ function IconPanorama() {
     );
 }
 
-export { IconPanorama, IconPanorama as icon_panorama };
+
 function IconPanoramaFishEye() {
     return React.createElement(
         "svg",
@@ -1036,7 +1418,7 @@ function IconPanoramaFishEye() {
     );
 }
 
-export { IconPanoramaFishEye, IconPanoramaFishEye as icon_panorama_fish_eye };
+
 function IconPanoramaHorizontal() {
     return React.createElement(
         "svg",
@@ -1045,7 +1427,7 @@ function IconPanoramaHorizontal() {
     );
 }
 
-export { IconPanoramaHorizontal, IconPanoramaHorizontal as icon_panorama_horizontal };
+
 function IconPanoramaVertical() {
     return React.createElement(
         "svg",
@@ -1054,7 +1436,7 @@ function IconPanoramaVertical() {
     );
 }
 
-export { IconPanoramaVertical, IconPanoramaVertical as icon_panorama_vertical };
+
 function IconPanoramaWideAngle() {
     return React.createElement(
         "svg",
@@ -1063,7 +1445,7 @@ function IconPanoramaWideAngle() {
     );
 }
 
-export { IconPanoramaWideAngle, IconPanoramaWideAngle as icon_panorama_wide_angle };
+
 function IconPhoto() {
     return React.createElement(
         "svg",
@@ -1072,7 +1454,7 @@ function IconPhoto() {
     );
 }
 
-export { IconPhoto, IconPhoto as icon_photo };
+
 function IconPhotoAlbum() {
     return React.createElement(
         "svg",
@@ -1081,7 +1463,7 @@ function IconPhotoAlbum() {
     );
 }
 
-export { IconPhotoAlbum, IconPhotoAlbum as icon_photo_album };
+
 function IconPhotoCamera() {
     return React.createElement(
         "svg",
@@ -1091,7 +1473,7 @@ function IconPhotoCamera() {
     );
 }
 
-export { IconPhotoCamera, IconPhotoCamera as icon_photo_camera };
+
 function IconPhotoFilter() {
     return React.createElement(
         "svg",
@@ -1100,7 +1482,7 @@ function IconPhotoFilter() {
     );
 }
 
-export { IconPhotoFilter, IconPhotoFilter as icon_photo_filter };
+
 function IconPhotoLibrary() {
     return React.createElement(
         "svg",
@@ -1109,7 +1491,7 @@ function IconPhotoLibrary() {
     );
 }
 
-export { IconPhotoLibrary, IconPhotoLibrary as icon_photo_library };
+
 function IconPhotoSizeSelectActual() {
     return React.createElement(
         "svg",
@@ -1118,7 +1500,7 @@ function IconPhotoSizeSelectActual() {
     );
 }
 
-export { IconPhotoSizeSelectActual, IconPhotoSizeSelectActual as icon_photo_size_select_actual };
+
 function IconPhotoSizeSelectLarge() {
     return React.createElement(
         "svg",
@@ -1127,7 +1509,7 @@ function IconPhotoSizeSelectLarge() {
     );
 }
 
-export { IconPhotoSizeSelectLarge, IconPhotoSizeSelectLarge as icon_photo_size_select_large };
+
 function IconPhotoSizeSelectSmall() {
     return React.createElement(
         "svg",
@@ -1136,7 +1518,7 @@ function IconPhotoSizeSelectSmall() {
     );
 }
 
-export { IconPhotoSizeSelectSmall, IconPhotoSizeSelectSmall as icon_photo_size_select_small };
+
 function IconPictureAsPdf() {
     return React.createElement(
         "svg",
@@ -1145,7 +1527,7 @@ function IconPictureAsPdf() {
     );
 }
 
-export { IconPictureAsPdf, IconPictureAsPdf as icon_picture_as_pdf };
+
 function IconPortrait() {
     return React.createElement(
         "svg",
@@ -1154,7 +1536,7 @@ function IconPortrait() {
     );
 }
 
-export { IconPortrait, IconPortrait as icon_portrait };
+
 function IconRemoveRedEye() {
     return React.createElement(
         "svg",
@@ -1163,7 +1545,7 @@ function IconRemoveRedEye() {
     );
 }
 
-export { IconRemoveRedEye, IconRemoveRedEye as icon_remove_red_eye };
+
 function IconRotate90DegreesCcw() {
     return React.createElement(
         "svg",
@@ -1172,7 +1554,7 @@ function IconRotate90DegreesCcw() {
     );
 }
 
-export { IconRotate90DegreesCcw, IconRotate90DegreesCcw as icon_rotate_90_degrees_ccw };
+
 function IconRotateLeft() {
     return React.createElement(
         "svg",
@@ -1181,7 +1563,7 @@ function IconRotateLeft() {
     );
 }
 
-export { IconRotateLeft, IconRotateLeft as icon_rotate_left };
+
 function IconRotateRight() {
     return React.createElement(
         "svg",
@@ -1190,7 +1572,7 @@ function IconRotateRight() {
     );
 }
 
-export { IconRotateRight, IconRotateRight as icon_rotate_right };
+
 function IconSlideshow() {
     return React.createElement(
         "svg",
@@ -1199,7 +1581,7 @@ function IconSlideshow() {
     );
 }
 
-export { IconSlideshow, IconSlideshow as icon_slideshow };
+
 function IconStraighten() {
     return React.createElement(
         "svg",
@@ -1208,7 +1590,7 @@ function IconStraighten() {
     );
 }
 
-export { IconStraighten, IconStraighten as icon_straighten };
+
 function IconStyle() {
     return React.createElement(
         "svg",
@@ -1217,7 +1599,7 @@ function IconStyle() {
     );
 }
 
-export { IconStyle, IconStyle as icon_style };
+
 function IconSwitchCamera() {
     return React.createElement(
         "svg",
@@ -1226,7 +1608,7 @@ function IconSwitchCamera() {
     );
 }
 
-export { IconSwitchCamera, IconSwitchCamera as icon_switch_camera };
+
 function IconSwitchVideo() {
     return React.createElement(
         "svg",
@@ -1235,7 +1617,7 @@ function IconSwitchVideo() {
     );
 }
 
-export { IconSwitchVideo, IconSwitchVideo as icon_switch_video };
+
 function IconTagFaces() {
     return React.createElement(
         "svg",
@@ -1244,7 +1626,7 @@ function IconTagFaces() {
     );
 }
 
-export { IconTagFaces, IconTagFaces as icon_tag_faces };
+
 function IconTexture() {
     return React.createElement(
         "svg",
@@ -1253,7 +1635,7 @@ function IconTexture() {
     );
 }
 
-export { IconTexture, IconTexture as icon_texture };
+
 function IconTimelapse() {
     return React.createElement(
         "svg",
@@ -1262,7 +1644,7 @@ function IconTimelapse() {
     );
 }
 
-export { IconTimelapse, IconTimelapse as icon_timelapse };
+
 function IconTimer10() {
     return React.createElement(
         "svg",
@@ -1271,7 +1653,7 @@ function IconTimer10() {
     );
 }
 
-export { IconTimer10, IconTimer10 as icon_timer_10 };
+
 function IconTimer() {
     return React.createElement(
         "svg",
@@ -1280,7 +1662,7 @@ function IconTimer() {
     );
 }
 
-export { IconTimer, IconTimer as icon_timer };
+
 function IconTimer3() {
     return React.createElement(
         "svg",
@@ -1289,7 +1671,7 @@ function IconTimer3() {
     );
 }
 
-export { IconTimer3, IconTimer3 as icon_timer_3 };
+
 function IconTimerOff() {
     return React.createElement(
         "svg",
@@ -1298,7 +1680,7 @@ function IconTimerOff() {
     );
 }
 
-export { IconTimerOff, IconTimerOff as icon_timer_off };
+
 function IconTonality() {
     return React.createElement(
         "svg",
@@ -1307,7 +1689,7 @@ function IconTonality() {
     );
 }
 
-export { IconTonality, IconTonality as icon_tonality };
+
 function IconTransform() {
     return React.createElement(
         "svg",
@@ -1316,7 +1698,7 @@ function IconTransform() {
     );
 }
 
-export { IconTransform, IconTransform as icon_transform };
+
 function IconTune() {
     return React.createElement(
         "svg",
@@ -1325,7 +1707,7 @@ function IconTune() {
     );
 }
 
-export { IconTune, IconTune as icon_tune };
+
 function IconViewComfy() {
     return React.createElement(
         "svg",
@@ -1334,7 +1716,7 @@ function IconViewComfy() {
     );
 }
 
-export { IconViewComfy, IconViewComfy as icon_view_comfy };
+
 function IconViewCompact() {
     return React.createElement(
         "svg",
@@ -1343,7 +1725,7 @@ function IconViewCompact() {
     );
 }
 
-export { IconViewCompact, IconViewCompact as icon_view_compact };
+
 function IconVignette() {
     return React.createElement(
         "svg",
@@ -1352,7 +1734,7 @@ function IconVignette() {
     );
 }
 
-export { IconVignette, IconVignette as icon_vignette };
+
 function IconWbAuto() {
     return React.createElement(
         "svg",
@@ -1361,7 +1743,7 @@ function IconWbAuto() {
     );
 }
 
-export { IconWbAuto, IconWbAuto as icon_wb_auto };
+
 function IconWbCloudy() {
     return React.createElement(
         "svg",
@@ -1370,7 +1752,7 @@ function IconWbCloudy() {
     );
 }
 
-export { IconWbCloudy, IconWbCloudy as icon_wb_cloudy };
+
 function IconWbIncandescent() {
     return React.createElement(
         "svg",
@@ -1379,7 +1761,7 @@ function IconWbIncandescent() {
     );
 }
 
-export { IconWbIncandescent, IconWbIncandescent as icon_wb_incandescent };
+
 function IconWbIridescent() {
     return React.createElement(
         "svg",
@@ -1388,7 +1770,7 @@ function IconWbIridescent() {
     );
 }
 
-export { IconWbIridescent, IconWbIridescent as icon_wb_iridescent };
+
 function IconWbSunny() {
     return React.createElement(
         "svg",
@@ -1397,4 +1779,13 @@ function IconWbSunny() {
     );
 }
 
-export { IconWbSunny, IconWbSunny as icon_wb_sunny };
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("react");
+
+/***/ })
+/******/ ]);
