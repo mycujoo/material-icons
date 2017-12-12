@@ -92,11 +92,5 @@ function buildSvg(source) {
             chunks: false,
             colors: true
         }))
-        console.log('==========================')
-        // cb && cb()
     })
-    // const transformed = babel.transform(file.join(''), {
-    //     presets: ['react']
-    // })
-    // fs.writeFileSync(`${dir}/index.js`, transformed.code)
 }
