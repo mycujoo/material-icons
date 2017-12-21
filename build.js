@@ -49,48 +49,67 @@ Promise.all(dirs.map(source =>
 
 function buildSvg(source) {
     const category = source.category.replace(directory, '')
-    const file = [templateFile]
+    const files = []
+
     source.icons.filter(isFile)
         .map(icon => {
+            const file = [templateFile]
             const raw = fs.readFileSync(icon, 'utf8')
             const iconName = `icon_${/svg\/production\/ic_(.*)_24px.svg/.exec(icon)[1]}`
             const iconNamePascalCase = `${iconName.replace(/(^|_)([a-zA-Z0-9])/g, (a,b,c) => c.toUpperCase())}`
             const template = templateIcon.replace('__TEMPLATE__', raw)
                 .replace(/__ICON__NAME__PASCAL__CASE__/g, iconNamePascalCase)
                 .replace(/__ICON__NAME__/g, iconName)
-            file.push(template)
+            files.push({ name: iconNamePascalCase, body: templateFile + template })
         })
+
     const dir = `./${category}/`
+
     if (fs.existsSync(dir) === false) {
         fs.mkdirSync(dir, 0777)
     }
-    fs.writeFileSync(`${dir}/src.js`, file.join(''))
-    const compiler = webpack({
-        entry: `${dir}/src.js`,
-        output: {
-            filename: 'index.js',
-            path: path.resolve(dir),
-            libraryTarget: 'commonjs2',
-        },
-        externals: {
-            'react': 'commonjs react'
-        },
-        module: {
-            loaders: [
-                {
-                    test: /\.jsx?$/,
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['react'],
-                    }
-                },
-            ],
-        },
+
+    files.forEach((file) => {
+        if (fs.existsSync(path.join(dir, file.name)) === false) {
+            fs.mkdirSync(path.join(dir, file.name), 0777)
+        }
     })
-    compiler.run(function(err, stats) {
-        console.log(stats.toString({
-            chunks: false,
-            colors: true
-        }))
+
+    files.forEach((file) => {
+      if (fs.existsSync(dir) === false) {
+          fs.mkdirSync(dir, 0777)
+      }
+
+      fs.writeFileSync(`${category}/${file.name}/src.js`, file.body)
+
+      const compiler = webpack({
+          entry: `${__dirname}/${category}/${file.name}/src.js`,
+          output: {
+              filename: 'index.js',
+              path: path.resolve(category, file.name),
+              libraryTarget: 'commonjs2',
+          },
+          externals: {
+              'react': 'commonjs react'
+          },
+          module: {
+              loaders: [
+                  {
+                      test: /\.jsx?$/,
+                      loader: 'babel-loader',
+                      options: {
+                          presets: ['react'],
+                      }
+                  },
+              ],
+          },
+      })
+
+      compiler.run(function(err, stats) {
+          console.log(stats.toString({
+              chunks: false,
+              colors: true
+          }))
+      })
     })
 }
