@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPermMedia", function() { return IconPermMedia; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_perm_media", function() { return IconPermMedia; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPermMedia() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPermMedia() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPermMedia);
+exports.IconPermMedia = IconPermMedia;
+exports.icon_perm_media = IconPermMedia;
+exports.default = IconPermMedia;
 
 /***/ }),
 /* 1 */

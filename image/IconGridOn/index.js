@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGridOn", function() { return IconGridOn; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_grid_on", function() { return IconGridOn; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconGridOn() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconGridOn() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconGridOn);
+exports.IconGridOn = IconGridOn;
+exports.icon_grid_on = IconGridOn;
+exports.default = IconGridOn;
 
 /***/ }),
 /* 1 */

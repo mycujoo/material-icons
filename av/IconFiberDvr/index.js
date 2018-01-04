@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFiberDvr", function() { return IconFiberDvr; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_fiber_dvr", function() { return IconFiberDvr; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFiberDvr() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFiberDvr() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFiberDvr);
+exports.IconFiberDvr = IconFiberDvr;
+exports.icon_fiber_dvr = IconFiberDvr;
+exports.default = IconFiberDvr;
 
 /***/ }),
 /* 1 */

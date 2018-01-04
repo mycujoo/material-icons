@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSyncProblem", function() { return IconSyncProblem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_sync_problem", function() { return IconSyncProblem; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSyncProblem() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSyncProblem() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSyncProblem);
+exports.IconSyncProblem = IconSyncProblem;
+exports.icon_sync_problem = IconSyncProblem;
+exports.default = IconSyncProblem;
 
 /***/ }),
 /* 1 */

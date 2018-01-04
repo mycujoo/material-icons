@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSmsFailed", function() { return IconSmsFailed; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_sms_failed", function() { return IconSmsFailed; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSmsFailed() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSmsFailed() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSmsFailed);
+exports.IconSmsFailed = IconSmsFailed;
+exports.icon_sms_failed = IconSmsFailed;
+exports.default = IconSmsFailed;
 
 /***/ }),
 /* 1 */

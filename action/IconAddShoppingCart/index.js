@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAddShoppingCart", function() { return IconAddShoppingCart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_add_shopping_cart", function() { return IconAddShoppingCart; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAddShoppingCart() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconAddShoppingCart() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAddShoppingCart);
+exports.IconAddShoppingCart = IconAddShoppingCart;
+exports.icon_add_shopping_cart = IconAddShoppingCart;
+exports.default = IconAddShoppingCart;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPermDeviceInformation", function() { return IconPermDeviceInformation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_perm_device_information", function() { return IconPermDeviceInformation; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPermDeviceInformation() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPermDeviceInformation() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPermDeviceInformation);
+exports.IconPermDeviceInformation = IconPermDeviceInformation;
+exports.icon_perm_device_information = IconPermDeviceInformation;
+exports.default = IconPermDeviceInformation;
 
 /***/ }),
 /* 1 */

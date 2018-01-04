@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVideoLabel", function() { return IconVideoLabel; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_video_label", function() { return IconVideoLabel; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconVideoLabel() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconVideoLabel() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconVideoLabel);
+exports.IconVideoLabel = IconVideoLabel;
+exports.icon_video_label = IconVideoLabel;
+exports.default = IconVideoLabel;
 
 /***/ }),
 /* 1 */

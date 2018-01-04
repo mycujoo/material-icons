@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRotateLeft", function() { return IconRotateLeft; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rotate_left", function() { return IconRotateLeft; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRotateLeft() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRotateLeft() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRotateLeft);
+exports.IconRotateLeft = IconRotateLeft;
+exports.icon_rotate_left = IconRotateLeft;
+exports.default = IconRotateLeft;
 
 /***/ }),
 /* 1 */

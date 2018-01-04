@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRoundedCorner", function() { return IconRoundedCorner; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_rounded_corner", function() { return IconRoundedCorner; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRoundedCorner() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRoundedCorner() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRoundedCorner);
+exports.IconRoundedCorner = IconRoundedCorner;
+exports.icon_rounded_corner = IconRoundedCorner;
+exports.default = IconRoundedCorner;
 
 /***/ }),
 /* 1 */

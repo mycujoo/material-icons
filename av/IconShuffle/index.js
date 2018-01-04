@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconShuffle", function() { return IconShuffle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_shuffle", function() { return IconShuffle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconShuffle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconShuffle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconShuffle);
+exports.IconShuffle = IconShuffle;
+exports.icon_shuffle = IconShuffle;
+exports.default = IconShuffle;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPolymer", function() { return IconPolymer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_polymer", function() { return IconPolymer; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPolymer() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPolymer() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPolymer);
+exports.IconPolymer = IconPolymer;
+exports.icon_polymer = IconPolymer;
+exports.default = IconPolymer;
 
 /***/ }),
 /* 1 */

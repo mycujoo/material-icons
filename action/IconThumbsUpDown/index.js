@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconThumbsUpDown", function() { return IconThumbsUpDown; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_thumbs_up_down", function() { return IconThumbsUpDown; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconThumbsUpDown() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconThumbsUpDown() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconThumbsUpDown);
+exports.IconThumbsUpDown = IconThumbsUpDown;
+exports.icon_thumbs_up_down = IconThumbsUpDown;
+exports.default = IconThumbsUpDown;
 
 /***/ }),
 /* 1 */

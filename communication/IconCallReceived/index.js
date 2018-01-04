@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallReceived", function() { return IconCallReceived; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_received", function() { return IconCallReceived; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCallReceived() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCallReceived() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCallReceived);
+exports.IconCallReceived = IconCallReceived;
+exports.icon_call_received = IconCallReceived;
+exports.default = IconCallReceived;
 
 /***/ }),
 /* 1 */

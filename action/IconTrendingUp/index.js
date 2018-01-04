@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTrendingUp", function() { return IconTrendingUp; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_trending_up", function() { return IconTrendingUp; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconTrendingUp() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconTrendingUp() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconTrendingUp);
+exports.IconTrendingUp = IconTrendingUp;
+exports.icon_trending_up = IconTrendingUp;
+exports.default = IconTrendingUp;
 
 /***/ }),
 /* 1 */

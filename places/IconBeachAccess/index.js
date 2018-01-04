@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBeachAccess", function() { return IconBeachAccess; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_beach_access", function() { return IconBeachAccess; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBeachAccess() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconBeachAccess() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBeachAccess);
+exports.IconBeachAccess = IconBeachAccess;
+exports.icon_beach_access = IconBeachAccess;
+exports.default = IconBeachAccess;
 
 /***/ }),
 /* 1 */

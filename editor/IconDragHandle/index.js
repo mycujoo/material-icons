@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDragHandle", function() { return IconDragHandle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_drag_handle", function() { return IconDragHandle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconDragHandle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconDragHandle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconDragHandle);
+exports.IconDragHandle = IconDragHandle;
+exports.icon_drag_handle = IconDragHandle;
+exports.default = IconDragHandle;
 
 /***/ }),
 /* 1 */

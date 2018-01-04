@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSignalCellularNoSim", function() { return IconSignalCellularNoSim; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_signal_cellular_no_sim", function() { return IconSignalCellularNoSim; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSignalCellularNoSim() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSignalCellularNoSim() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSignalCellularNoSim);
+exports.IconSignalCellularNoSim = IconSignalCellularNoSim;
+exports.icon_signal_cellular_no_sim = IconSignalCellularNoSim;
+exports.default = IconSignalCellularNoSim;
 
 /***/ }),
 /* 1 */

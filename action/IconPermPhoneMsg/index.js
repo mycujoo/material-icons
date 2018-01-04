@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPermPhoneMsg", function() { return IconPermPhoneMsg; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_perm_phone_msg", function() { return IconPermPhoneMsg; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPermPhoneMsg() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPermPhoneMsg() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPermPhoneMsg);
+exports.IconPermPhoneMsg = IconPermPhoneMsg;
+exports.icon_perm_phone_msg = IconPermPhoneMsg;
+exports.default = IconPermPhoneMsg;
 
 /***/ }),
 /* 1 */

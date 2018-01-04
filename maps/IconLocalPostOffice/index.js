@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLocalPostOffice", function() { return IconLocalPostOffice; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_local_post_office", function() { return IconLocalPostOffice; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconLocalPostOffice() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconLocalPostOffice() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconLocalPostOffice);
+exports.IconLocalPostOffice = IconLocalPostOffice;
+exports.icon_local_post_office = IconLocalPostOffice;
+exports.default = IconLocalPostOffice;
 
 /***/ }),
 /* 1 */

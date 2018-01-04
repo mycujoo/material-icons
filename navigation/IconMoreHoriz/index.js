@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMoreHoriz", function() { return IconMoreHoriz; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_more_horiz", function() { return IconMoreHoriz; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconMoreHoriz() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconMoreHoriz() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconMoreHoriz);
+exports.IconMoreHoriz = IconMoreHoriz;
+exports.icon_more_horiz = IconMoreHoriz;
+exports.default = IconMoreHoriz;
 
 /***/ }),
 /* 1 */

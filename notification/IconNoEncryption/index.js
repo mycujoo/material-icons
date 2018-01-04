@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNoEncryption", function() { return IconNoEncryption; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_no_encryption", function() { return IconNoEncryption; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconNoEncryption() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconNoEncryption() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconNoEncryption);
+exports.IconNoEncryption = IconNoEncryption;
+exports.icon_no_encryption = IconNoEncryption;
+exports.default = IconNoEncryption;
 
 /***/ }),
 /* 1 */

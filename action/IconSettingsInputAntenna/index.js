@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSettingsInputAntenna", function() { return IconSettingsInputAntenna; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_settings_input_antenna", function() { return IconSettingsInputAntenna; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSettingsInputAntenna() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSettingsInputAntenna() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSettingsInputAntenna);
+exports.IconSettingsInputAntenna = IconSettingsInputAntenna;
+exports.icon_settings_input_antenna = IconSettingsInputAntenna;
+exports.default = IconSettingsInputAntenna;
 
 /***/ }),
 /* 1 */

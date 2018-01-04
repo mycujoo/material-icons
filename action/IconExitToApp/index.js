@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExitToApp", function() { return IconExitToApp; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exit_to_app", function() { return IconExitToApp; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconExitToApp() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconExitToApp() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconExitToApp);
+exports.IconExitToApp = IconExitToApp;
+exports.icon_exit_to_app = IconExitToApp;
+exports.default = IconExitToApp;
 
 /***/ }),
 /* 1 */

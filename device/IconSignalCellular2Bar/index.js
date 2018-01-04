@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSignalCellular2Bar", function() { return IconSignalCellular2Bar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_signal_cellular_2_bar", function() { return IconSignalCellular2Bar; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSignalCellular2Bar() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconSignalCellular2Bar() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSignalCellular2Bar);
+exports.IconSignalCellular2Bar = IconSignalCellular2Bar;
+exports.icon_signal_cellular_2_bar = IconSignalCellular2Bar;
+exports.default = IconSignalCellular2Bar;
 
 /***/ }),
 /* 1 */

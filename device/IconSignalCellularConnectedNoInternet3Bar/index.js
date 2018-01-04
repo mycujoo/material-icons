@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSignalCellularConnectedNoInternet3Bar", function() { return IconSignalCellularConnectedNoInternet3Bar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_signal_cellular_connected_no_internet_3_bar", function() { return IconSignalCellularConnectedNoInternet3Bar; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSignalCellularConnectedNoInternet3Bar() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconSignalCellularConnectedNoInternet3Bar() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSignalCellularConnectedNoInternet3Bar);
+exports.IconSignalCellularConnectedNoInternet3Bar = IconSignalCellularConnectedNoInternet3Bar;
+exports.icon_signal_cellular_connected_no_internet_3_bar = IconSignalCellularConnectedNoInternet3Bar;
+exports.default = IconSignalCellularConnectedNoInternet3Bar;
 
 /***/ }),
 /* 1 */

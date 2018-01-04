@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRestorePage", function() { return IconRestorePage; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_restore_page", function() { return IconRestorePage; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRestorePage() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRestorePage() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRestorePage);
+exports.IconRestorePage = IconRestorePage;
+exports.icon_restore_page = IconRestorePage;
+exports.default = IconRestorePage;
 
 /***/ }),
 /* 1 */

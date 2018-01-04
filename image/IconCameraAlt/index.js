@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraAlt", function() { return IconCameraAlt; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_alt", function() { return IconCameraAlt; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCameraAlt() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconCameraAlt() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCameraAlt);
+exports.IconCameraAlt = IconCameraAlt;
+exports.icon_camera_alt = IconCameraAlt;
+exports.default = IconCameraAlt;
 
 /***/ }),
 /* 1 */

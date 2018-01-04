@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWifiTethering", function() { return IconWifiTethering; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wifi_tethering", function() { return IconWifiTethering; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconWifiTethering() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconWifiTethering() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconWifiTethering);
+exports.IconWifiTethering = IconWifiTethering;
+exports.icon_wifi_tethering = IconWifiTethering;
+exports.default = IconWifiTethering;
 
 /***/ }),
 /* 1 */

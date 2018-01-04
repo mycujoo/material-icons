@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBorderInner", function() { return IconBorderInner; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_border_inner", function() { return IconBorderInner; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBorderInner() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconBorderInner() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBorderInner);
+exports.IconBorderInner = IconBorderInner;
+exports.icon_border_inner = IconBorderInner;
+exports.default = IconBorderInner;
 
 /***/ }),
 /* 1 */

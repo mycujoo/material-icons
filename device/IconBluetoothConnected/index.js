@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBluetoothConnected", function() { return IconBluetoothConnected; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_bluetooth_connected", function() { return IconBluetoothConnected; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBluetoothConnected() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconBluetoothConnected() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBluetoothConnected);
+exports.IconBluetoothConnected = IconBluetoothConnected;
+exports.icon_bluetooth_connected = IconBluetoothConnected;
+exports.default = IconBluetoothConnected;
 
 /***/ }),
 /* 1 */

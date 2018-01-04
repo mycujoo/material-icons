@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconScreenLockRotation", function() { return IconScreenLockRotation; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_screen_lock_rotation", function() { return IconScreenLockRotation; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconScreenLockRotation() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconScreenLockRotation() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconScreenLockRotation);
+exports.IconScreenLockRotation = IconScreenLockRotation;
+exports.icon_screen_lock_rotation = IconScreenLockRotation;
+exports.default = IconScreenLockRotation;
 
 /***/ }),
 /* 1 */

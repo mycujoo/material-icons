@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposureNeg1", function() { return IconExposureNeg1; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_neg_1", function() { return IconExposureNeg1; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconExposureNeg1() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconExposureNeg1() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconExposureNeg1);
+exports.IconExposureNeg1 = IconExposureNeg1;
+exports.icon_exposure_neg_1 = IconExposureNeg1;
+exports.default = IconExposureNeg1;
 
 /***/ }),
 /* 1 */

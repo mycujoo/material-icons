@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAirlineSeatReclineNormal", function() { return IconAirlineSeatReclineNormal; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_airline_seat_recline_normal", function() { return IconAirlineSeatReclineNormal; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAirlineSeatReclineNormal() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconAirlineSeatReclineNormal() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAirlineSeatReclineNormal);
+exports.IconAirlineSeatReclineNormal = IconAirlineSeatReclineNormal;
+exports.icon_airline_seat_recline_normal = IconAirlineSeatReclineNormal;
+exports.default = IconAirlineSeatReclineNormal;
 
 /***/ }),
 /* 1 */

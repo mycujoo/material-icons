@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconChatBubble", function() { return IconChatBubble; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_chat_bubble", function() { return IconChatBubble; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconChatBubble() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconChatBubble() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconChatBubble);
+exports.IconChatBubble = IconChatBubble;
+exports.icon_chat_bubble = IconChatBubble;
+exports.default = IconChatBubble;
 
 /***/ }),
 /* 1 */

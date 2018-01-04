@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLockOutline", function() { return IconLockOutline; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_lock_outline", function() { return IconLockOutline; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconLockOutline() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconLockOutline() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconLockOutline);
+exports.IconLockOutline = IconLockOutline;
+exports.icon_lock_outline = IconLockOutline;
+exports.default = IconLockOutline;
 
 /***/ }),
 /* 1 */

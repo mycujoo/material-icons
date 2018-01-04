@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAddToQueue", function() { return IconAddToQueue; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_add_to_queue", function() { return IconAddToQueue; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAddToQueue() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconAddToQueue() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAddToQueue);
+exports.IconAddToQueue = IconAddToQueue;
+exports.icon_add_to_queue = IconAddToQueue;
+exports.default = IconAddToQueue;
 
 /***/ }),
 /* 1 */

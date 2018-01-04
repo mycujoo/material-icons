@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFileUpload", function() { return IconFileUpload; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_file_upload", function() { return IconFileUpload; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFileUpload() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFileUpload() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFileUpload);
+exports.IconFileUpload = IconFileUpload;
+exports.icon_file_upload = IconFileUpload;
+exports.default = IconFileUpload;
 
 /***/ }),
 /* 1 */

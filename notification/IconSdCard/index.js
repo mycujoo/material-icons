@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSdCard", function() { return IconSdCard; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_sd_card", function() { return IconSdCard; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSdCard() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSdCard() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSdCard);
+exports.IconSdCard = IconSdCard;
+exports.icon_sd_card = IconSdCard;
+exports.default = IconSdCard;
 
 /***/ }),
 /* 1 */

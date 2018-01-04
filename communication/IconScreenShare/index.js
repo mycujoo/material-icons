@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconScreenShare", function() { return IconScreenShare; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_screen_share", function() { return IconScreenShare; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconScreenShare() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconScreenShare() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconScreenShare);
+exports.IconScreenShare = IconScreenShare;
+exports.icon_screen_share = IconScreenShare;
+exports.default = IconScreenShare;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNotificationsPaused", function() { return IconNotificationsPaused; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_notifications_paused", function() { return IconNotificationsPaused; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconNotificationsPaused() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconNotificationsPaused() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconNotificationsPaused);
+exports.IconNotificationsPaused = IconNotificationsPaused;
+exports.icon_notifications_paused = IconNotificationsPaused;
+exports.default = IconNotificationsPaused;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconUnfoldLess", function() { return IconUnfoldLess; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_unfold_less", function() { return IconUnfoldLess; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconUnfoldLess() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconUnfoldLess() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconUnfoldLess);
+exports.IconUnfoldLess = IconUnfoldLess;
+exports.icon_unfold_less = IconUnfoldLess;
+exports.default = IconUnfoldLess;
 
 /***/ }),
 /* 1 */

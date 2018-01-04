@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconConfirmationNumber", function() { return IconConfirmationNumber; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_confirmation_number", function() { return IconConfirmationNumber; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconConfirmationNumber() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconConfirmationNumber() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconConfirmationNumber);
+exports.IconConfirmationNumber = IconConfirmationNumber;
+exports.icon_confirmation_number = IconConfirmationNumber;
+exports.default = IconConfirmationNumber;
 
 /***/ }),
 /* 1 */

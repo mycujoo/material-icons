@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMicOff", function() { return IconMicOff; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_mic_off", function() { return IconMicOff; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconMicOff() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconMicOff() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconMicOff);
+exports.IconMicOff = IconMicOff;
+exports.icon_mic_off = IconMicOff;
+exports.default = IconMicOff;
 
 /***/ }),
 /* 1 */

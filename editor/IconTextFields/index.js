@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTextFields", function() { return IconTextFields; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_text_fields", function() { return IconTextFields; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconTextFields() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconTextFields() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconTextFields);
+exports.IconTextFields = IconTextFields;
+exports.icon_text_fields = IconTextFields;
+exports.default = IconTextFields;
 
 /***/ }),
 /* 1 */

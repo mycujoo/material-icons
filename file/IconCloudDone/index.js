@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCloudDone", function() { return IconCloudDone; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cloud_done", function() { return IconCloudDone; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCloudDone() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCloudDone() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCloudDone);
+exports.IconCloudDone = IconCloudDone;
+exports.icon_cloud_done = IconCloudDone;
+exports.default = IconCloudDone;
 
 /***/ }),
 /* 1 */

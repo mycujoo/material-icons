@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPermDataSetting", function() { return IconPermDataSetting; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_perm_data_setting", function() { return IconPermDataSetting; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPermDataSetting() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPermDataSetting() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPermDataSetting);
+exports.IconPermDataSetting = IconPermDataSetting;
+exports.icon_perm_data_setting = IconPermDataSetting;
+exports.default = IconPermDataSetting;
 
 /***/ }),
 /* 1 */

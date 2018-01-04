@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconControlPoint", function() { return IconControlPoint; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_control_point", function() { return IconControlPoint; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconControlPoint() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconControlPoint() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconControlPoint);
+exports.IconControlPoint = IconControlPoint;
+exports.icon_control_point = IconControlPoint;
+exports.default = IconControlPoint;
 
 /***/ }),
 /* 1 */

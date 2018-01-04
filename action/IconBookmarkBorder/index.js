@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBookmarkBorder", function() { return IconBookmarkBorder; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_bookmark_border", function() { return IconBookmarkBorder; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBookmarkBorder() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconBookmarkBorder() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBookmarkBorder);
+exports.IconBookmarkBorder = IconBookmarkBorder;
+exports.icon_bookmark_border = IconBookmarkBorder;
+exports.default = IconBookmarkBorder;
 
 /***/ }),
 /* 1 */

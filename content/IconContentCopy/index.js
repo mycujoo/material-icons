@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconContentCopy", function() { return IconContentCopy; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_content_copy", function() { return IconContentCopy; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconContentCopy() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconContentCopy() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconContentCopy);
+exports.IconContentCopy = IconContentCopy;
+exports.icon_content_copy = IconContentCopy;
+exports.default = IconContentCopy;
 
 /***/ }),
 /* 1 */

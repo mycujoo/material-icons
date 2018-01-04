@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNoSim", function() { return IconNoSim; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_no_sim", function() { return IconNoSim; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconNoSim() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconNoSim() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconNoSim);
+exports.IconNoSim = IconNoSim;
+exports.icon_no_sim = IconNoSim;
+exports.default = IconNoSim;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGpsOff", function() { return IconGpsOff; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_gps_off", function() { return IconGpsOff; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconGpsOff() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconGpsOff() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconGpsOff);
+exports.IconGpsOff = IconGpsOff;
+exports.icon_gps_off = IconGpsOff;
+exports.default = IconGpsOff;
 
 /***/ }),
 /* 1 */

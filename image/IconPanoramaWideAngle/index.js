@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPanoramaWideAngle", function() { return IconPanoramaWideAngle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_panorama_wide_angle", function() { return IconPanoramaWideAngle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPanoramaWideAngle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPanoramaWideAngle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPanoramaWideAngle);
+exports.IconPanoramaWideAngle = IconPanoramaWideAngle;
+exports.icon_panorama_wide_angle = IconPanoramaWideAngle;
+exports.default = IconPanoramaWideAngle;
 
 /***/ }),
 /* 1 */

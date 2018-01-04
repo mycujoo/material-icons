@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconArrowDropDownCircle", function() { return IconArrowDropDownCircle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_arrow_drop_down_circle", function() { return IconArrowDropDownCircle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconArrowDropDownCircle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconArrowDropDownCircle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconArrowDropDownCircle);
+exports.IconArrowDropDownCircle = IconArrowDropDownCircle;
+exports.icon_arrow_drop_down_circle = IconArrowDropDownCircle;
+exports.default = IconArrowDropDownCircle;
 
 /***/ }),
 /* 1 */

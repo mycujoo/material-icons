@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDashboard", function() { return IconDashboard; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_dashboard", function() { return IconDashboard; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconDashboard() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconDashboard() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconDashboard);
+exports.IconDashboard = IconDashboard;
+exports.icon_dashboard = IconDashboard;
+exports.default = IconDashboard;
 
 /***/ }),
 /* 1 */

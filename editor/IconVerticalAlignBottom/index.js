@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVerticalAlignBottom", function() { return IconVerticalAlignBottom; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_vertical_align_bottom", function() { return IconVerticalAlignBottom; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconVerticalAlignBottom() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconVerticalAlignBottom() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconVerticalAlignBottom);
+exports.IconVerticalAlignBottom = IconVerticalAlignBottom;
+exports.icon_vertical_align_bottom = IconVerticalAlignBottom;
+exports.default = IconVerticalAlignBottom;
 
 /***/ }),
 /* 1 */

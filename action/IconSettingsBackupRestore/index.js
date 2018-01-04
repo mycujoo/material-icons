@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSettingsBackupRestore", function() { return IconSettingsBackupRestore; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_settings_backup_restore", function() { return IconSettingsBackupRestore; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSettingsBackupRestore() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSettingsBackupRestore() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSettingsBackupRestore);
+exports.IconSettingsBackupRestore = IconSettingsBackupRestore;
+exports.icon_settings_backup_restore = IconSettingsBackupRestore;
+exports.default = IconSettingsBackupRestore;
 
 /***/ }),
 /* 1 */

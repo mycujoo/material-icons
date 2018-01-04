@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMemory", function() { return IconMemory; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_memory", function() { return IconMemory; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconMemory() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconMemory() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconMemory);
+exports.IconMemory = IconMemory;
+exports.icon_memory = IconMemory;
+exports.default = IconMemory;
 
 /***/ }),
 /* 1 */

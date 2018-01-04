@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSwapHoriz", function() { return IconSwapHoriz; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_swap_horiz", function() { return IconSwapHoriz; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSwapHoriz() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSwapHoriz() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSwapHoriz);
+exports.IconSwapHoriz = IconSwapHoriz;
+exports.icon_swap_horiz = IconSwapHoriz;
+exports.default = IconSwapHoriz;
 
 /***/ }),
 /* 1 */

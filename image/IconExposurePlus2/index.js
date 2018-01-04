@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconExposurePlus2", function() { return IconExposurePlus2; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_exposure_plus_2", function() { return IconExposurePlus2; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconExposurePlus2() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconExposurePlus2() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconExposurePlus2);
+exports.IconExposurePlus2 = IconExposurePlus2;
+exports.icon_exposure_plus_2 = IconExposurePlus2;
+exports.default = IconExposurePlus2;
 
 /***/ }),
 /* 1 */

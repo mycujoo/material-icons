@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBatteryCharging20", function() { return IconBatteryCharging20; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_battery_charging_20", function() { return IconBatteryCharging20; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBatteryCharging20() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconBatteryCharging20() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBatteryCharging20);
+exports.IconBatteryCharging20 = IconBatteryCharging20;
+exports.icon_battery_charging_20 = IconBatteryCharging20;
+exports.default = IconBatteryCharging20;
 
 /***/ }),
 /* 1 */

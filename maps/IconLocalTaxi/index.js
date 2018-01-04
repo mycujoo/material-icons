@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLocalTaxi", function() { return IconLocalTaxi; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_local_taxi", function() { return IconLocalTaxi; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconLocalTaxi() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconLocalTaxi() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconLocalTaxi);
+exports.IconLocalTaxi = IconLocalTaxi;
+exports.icon_local_taxi = IconLocalTaxi;
+exports.default = IconLocalTaxi;
 
 /***/ }),
 /* 1 */

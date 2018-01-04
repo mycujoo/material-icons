@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFormatColorFill", function() { return IconFormatColorFill; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_format_color_fill", function() { return IconFormatColorFill; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFormatColorFill() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconFormatColorFill() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFormatColorFill);
+exports.IconFormatColorFill = IconFormatColorFill;
+exports.icon_format_color_fill = IconFormatColorFill;
+exports.default = IconFormatColorFill;
 
 /***/ }),
 /* 1 */

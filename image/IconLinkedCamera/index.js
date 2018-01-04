@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconLinkedCamera", function() { return IconLinkedCamera; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_linked_camera", function() { return IconLinkedCamera; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconLinkedCamera() {
     return React.createElement(
         "svg",
@@ -83,9 +85,9 @@ function IconLinkedCamera() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconLinkedCamera);
+exports.IconLinkedCamera = IconLinkedCamera;
+exports.icon_linked_camera = IconLinkedCamera;
+exports.default = IconLinkedCamera;
 
 /***/ }),
 /* 1 */

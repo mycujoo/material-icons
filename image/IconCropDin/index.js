@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCropDin", function() { return IconCropDin; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_crop_din", function() { return IconCropDin; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCropDin() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCropDin() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCropDin);
+exports.IconCropDin = IconCropDin;
+exports.icon_crop_din = IconCropDin;
+exports.default = IconCropDin;
 
 /***/ }),
 /* 1 */

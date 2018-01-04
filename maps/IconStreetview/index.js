@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconStreetview", function() { return IconStreetview; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_streetview", function() { return IconStreetview; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconStreetview() {
     return React.createElement(
         "svg",
@@ -83,9 +85,9 @@ function IconStreetview() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconStreetview);
+exports.IconStreetview = IconStreetview;
+exports.icon_streetview = IconStreetview;
+exports.default = IconStreetview;
 
 /***/ }),
 /* 1 */

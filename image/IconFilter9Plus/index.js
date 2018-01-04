@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFilter9Plus", function() { return IconFilter9Plus; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_filter_9_plus", function() { return IconFilter9Plus; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFilter9Plus() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFilter9Plus() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFilter9Plus);
+exports.IconFilter9Plus = IconFilter9Plus;
+exports.icon_filter_9_plus = IconFilter9Plus;
+exports.default = IconFilter9Plus;
 
 /***/ }),
 /* 1 */

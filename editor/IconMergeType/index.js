@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconMergeType", function() { return IconMergeType; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_merge_type", function() { return IconMergeType; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconMergeType() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconMergeType() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconMergeType);
+exports.IconMergeType = IconMergeType;
+exports.icon_merge_type = IconMergeType;
+exports.default = IconMergeType;
 
 /***/ }),
 /* 1 */

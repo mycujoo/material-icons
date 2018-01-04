@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFontDownload", function() { return IconFontDownload; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_font_download", function() { return IconFontDownload; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFontDownload() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFontDownload() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFontDownload);
+exports.IconFontDownload = IconFontDownload;
+exports.icon_font_download = IconFontDownload;
+exports.default = IconFontDownload;
 
 /***/ }),
 /* 1 */

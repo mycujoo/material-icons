@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCastConnected", function() { return IconCastConnected; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_cast_connected", function() { return IconCastConnected; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCastConnected() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCastConnected() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCastConnected);
+exports.IconCastConnected = IconCastConnected;
+exports.icon_cast_connected = IconCastConnected;
+exports.default = IconCastConnected;
 
 /***/ }),
 /* 1 */

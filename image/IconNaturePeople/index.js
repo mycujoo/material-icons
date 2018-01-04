@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconNaturePeople", function() { return IconNaturePeople; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_nature_people", function() { return IconNaturePeople; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconNaturePeople() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconNaturePeople() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconNaturePeople);
+exports.IconNaturePeople = IconNaturePeople;
+exports.icon_nature_people = IconNaturePeople;
+exports.default = IconNaturePeople;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSwitchCamera", function() { return IconSwitchCamera; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_switch_camera", function() { return IconSwitchCamera; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSwitchCamera() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSwitchCamera() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSwitchCamera);
+exports.IconSwitchCamera = IconSwitchCamera;
+exports.icon_switch_camera = IconSwitchCamera;
+exports.default = IconSwitchCamera;
 
 /***/ }),
 /* 1 */

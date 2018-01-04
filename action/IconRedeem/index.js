@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRedeem", function() { return IconRedeem; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_redeem", function() { return IconRedeem; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRedeem() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRedeem() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRedeem);
+exports.IconRedeem = IconRedeem;
+exports.icon_redeem = IconRedeem;
+exports.default = IconRedeem;
 
 /***/ }),
 /* 1 */

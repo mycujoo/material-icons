@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDoNotDisturbOff", function() { return IconDoNotDisturbOff; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_do_not_disturb_off", function() { return IconDoNotDisturbOff; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconDoNotDisturbOff() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconDoNotDisturbOff() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconDoNotDisturbOff);
+exports.IconDoNotDisturbOff = IconDoNotDisturbOff;
+exports.icon_do_not_disturb_off = IconDoNotDisturbOff;
+exports.default = IconDoNotDisturbOff;
 
 /***/ }),
 /* 1 */

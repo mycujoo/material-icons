@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDirectionsBus", function() { return IconDirectionsBus; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_directions_bus", function() { return IconDirectionsBus; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconDirectionsBus() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconDirectionsBus() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconDirectionsBus);
+exports.IconDirectionsBus = IconDirectionsBus;
+exports.icon_directions_bus = IconDirectionsBus;
+exports.default = IconDirectionsBus;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconIndeterminateCheckBox", function() { return IconIndeterminateCheckBox; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_indeterminate_check_box", function() { return IconIndeterminateCheckBox; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconIndeterminateCheckBox() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconIndeterminateCheckBox() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconIndeterminateCheckBox);
+exports.IconIndeterminateCheckBox = IconIndeterminateCheckBox;
+exports.icon_indeterminate_check_box = IconIndeterminateCheckBox;
+exports.default = IconIndeterminateCheckBox;
 
 /***/ }),
 /* 1 */

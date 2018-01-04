@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconVideogameAsset", function() { return IconVideogameAsset; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_videogame_asset", function() { return IconVideogameAsset; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconVideogameAsset() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconVideogameAsset() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconVideogameAsset);
+exports.IconVideogameAsset = IconVideogameAsset;
+exports.icon_videogame_asset = IconVideogameAsset;
+exports.default = IconVideogameAsset;
 
 /***/ }),
 /* 1 */

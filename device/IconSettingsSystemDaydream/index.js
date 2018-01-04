@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSettingsSystemDaydream", function() { return IconSettingsSystemDaydream; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_settings_system_daydream", function() { return IconSettingsSystemDaydream; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSettingsSystemDaydream() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSettingsSystemDaydream() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSettingsSystemDaydream);
+exports.IconSettingsSystemDaydream = IconSettingsSystemDaydream;
+exports.icon_settings_system_daydream = IconSettingsSystemDaydream;
+exports.default = IconSettingsSystemDaydream;
 
 /***/ }),
 /* 1 */

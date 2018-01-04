@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBlurLinear", function() { return IconBlurLinear; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_blur_linear", function() { return IconBlurLinear; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBlurLinear() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconBlurLinear() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBlurLinear);
+exports.IconBlurLinear = IconBlurLinear;
+exports.icon_blur_linear = IconBlurLinear;
+exports.default = IconBlurLinear;
 
 /***/ }),
 /* 1 */

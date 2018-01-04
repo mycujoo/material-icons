@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSignalWifi1Bar", function() { return IconSignalWifi1Bar; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_signal_wifi_1_bar", function() { return IconSignalWifi1Bar; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSignalWifi1Bar() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconSignalWifi1Bar() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSignalWifi1Bar);
+exports.IconSignalWifi1Bar = IconSignalWifi1Bar;
+exports.icon_signal_wifi_1_bar = IconSignalWifi1Bar;
+exports.default = IconSignalWifi1Bar;
 
 /***/ }),
 /* 1 */

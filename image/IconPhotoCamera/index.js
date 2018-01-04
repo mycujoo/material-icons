@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPhotoCamera", function() { return IconPhotoCamera; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_photo_camera", function() { return IconPhotoCamera; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPhotoCamera() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconPhotoCamera() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPhotoCamera);
+exports.IconPhotoCamera = IconPhotoCamera;
+exports.icon_photo_camera = IconPhotoCamera;
+exports.default = IconPhotoCamera;
 
 /***/ }),
 /* 1 */

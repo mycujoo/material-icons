@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRemoveCircle", function() { return IconRemoveCircle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_remove_circle", function() { return IconRemoveCircle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRemoveCircle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRemoveCircle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRemoveCircle);
+exports.IconRemoveCircle = IconRemoveCircle;
+exports.icon_remove_circle = IconRemoveCircle;
+exports.default = IconRemoveCircle;
 
 /***/ }),
 /* 1 */

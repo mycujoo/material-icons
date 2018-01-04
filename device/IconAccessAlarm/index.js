@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAccessAlarm", function() { return IconAccessAlarm; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_access_alarm", function() { return IconAccessAlarm; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAccessAlarm() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconAccessAlarm() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAccessAlarm);
+exports.IconAccessAlarm = IconAccessAlarm;
+exports.icon_access_alarm = IconAccessAlarm;
+exports.default = IconAccessAlarm;
 
 /***/ }),
 /* 1 */

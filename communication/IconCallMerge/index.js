@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCallMerge", function() { return IconCallMerge; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_call_merge", function() { return IconCallMerge; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCallMerge() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCallMerge() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCallMerge);
+exports.IconCallMerge = IconCallMerge;
+exports.icon_call_merge = IconCallMerge;
+exports.default = IconCallMerge;
 
 /***/ }),
 /* 1 */

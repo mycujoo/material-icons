@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconBubbleChart", function() { return IconBubbleChart; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_bubble_chart", function() { return IconBubbleChart; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconBubbleChart() {
     return React.createElement(
         "svg",
@@ -83,9 +85,9 @@ function IconBubbleChart() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconBubbleChart);
+exports.IconBubbleChart = IconBubbleChart;
+exports.icon_bubble_chart = IconBubbleChart;
+exports.default = IconBubbleChart;
 
 /***/ }),
 /* 1 */

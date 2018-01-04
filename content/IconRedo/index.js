@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRedo", function() { return IconRedo; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_redo", function() { return IconRedo; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRedo() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconRedo() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRedo);
+exports.IconRedo = IconRedo;
+exports.icon_redo = IconRedo;
+exports.default = IconRedo;
 
 /***/ }),
 /* 1 */

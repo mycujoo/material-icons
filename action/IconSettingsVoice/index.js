@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSettingsVoice", function() { return IconSettingsVoice; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_settings_voice", function() { return IconSettingsVoice; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSettingsVoice() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSettingsVoice() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSettingsVoice);
+exports.IconSettingsVoice = IconSettingsVoice;
+exports.icon_settings_voice = IconSettingsVoice;
+exports.default = IconSettingsVoice;
 
 /***/ }),
 /* 1 */

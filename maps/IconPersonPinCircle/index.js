@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconPersonPinCircle", function() { return IconPersonPinCircle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_person_pin_circle", function() { return IconPersonPinCircle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconPersonPinCircle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconPersonPinCircle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconPersonPinCircle);
+exports.IconPersonPinCircle = IconPersonPinCircle;
+exports.icon_person_pin_circle = IconPersonPinCircle;
+exports.default = IconPersonPinCircle;
 
 /***/ }),
 /* 1 */

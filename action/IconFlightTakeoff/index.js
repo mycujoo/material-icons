@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlightTakeoff", function() { return IconFlightTakeoff; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flight_takeoff", function() { return IconFlightTakeoff; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFlightTakeoff() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFlightTakeoff() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFlightTakeoff);
+exports.IconFlightTakeoff = IconFlightTakeoff;
+exports.icon_flight_takeoff = IconFlightTakeoff;
+exports.default = IconFlightTakeoff;
 
 /***/ }),
 /* 1 */

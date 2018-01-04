@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconWbIncandescent", function() { return IconWbIncandescent; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_wb_incandescent", function() { return IconWbIncandescent; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconWbIncandescent() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconWbIncandescent() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconWbIncandescent);
+exports.IconWbIncandescent = IconWbIncandescent;
+exports.icon_wb_incandescent = IconWbIncandescent;
+exports.default = IconWbIncandescent;
 
 /***/ }),
 /* 1 */

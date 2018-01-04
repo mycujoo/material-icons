@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSentimentVeryDissatisfied", function() { return IconSentimentVeryDissatisfied; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_sentiment_very_dissatisfied", function() { return IconSentimentVeryDissatisfied; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSentimentVeryDissatisfied() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSentimentVeryDissatisfied() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSentimentVeryDissatisfied);
+exports.IconSentimentVeryDissatisfied = IconSentimentVeryDissatisfied;
+exports.icon_sentiment_very_dissatisfied = IconSentimentVeryDissatisfied;
+exports.default = IconSentimentVeryDissatisfied;
 
 /***/ }),
 /* 1 */

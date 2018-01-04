@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTextFormat", function() { return IconTextFormat; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_text_format", function() { return IconTextFormat; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconTextFormat() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconTextFormat() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconTextFormat);
+exports.IconTextFormat = IconTextFormat;
+exports.icon_text_format = IconTextFormat;
+exports.default = IconTextFormat;
 
 /***/ }),
 /* 1 */

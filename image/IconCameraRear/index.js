@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCameraRear", function() { return IconCameraRear; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_camera_rear", function() { return IconCameraRear; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCameraRear() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCameraRear() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCameraRear);
+exports.IconCameraRear = IconCameraRear;
+exports.icon_camera_rear = IconCameraRear;
+exports.default = IconCameraRear;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAccessible", function() { return IconAccessible; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_accessible", function() { return IconAccessible; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAccessible() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconAccessible() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAccessible);
+exports.IconAccessible = IconAccessible;
+exports.icon_accessible = IconAccessible;
+exports.default = IconAccessible;
 
 /***/ }),
 /* 1 */

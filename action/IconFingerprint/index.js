@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFingerprint", function() { return IconFingerprint; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_fingerprint", function() { return IconFingerprint; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFingerprint() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFingerprint() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFingerprint);
+exports.IconFingerprint = IconFingerprint;
+exports.icon_fingerprint = IconFingerprint;
+exports.default = IconFingerprint;
 
 /***/ }),
 /* 1 */

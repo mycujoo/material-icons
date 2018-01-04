@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconKeyboardReturn", function() { return IconKeyboardReturn; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_keyboard_return", function() { return IconKeyboardReturn; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconKeyboardReturn() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconKeyboardReturn() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconKeyboardReturn);
+exports.IconKeyboardReturn = IconKeyboardReturn;
+exports.icon_keyboard_return = IconKeyboardReturn;
+exports.default = IconKeyboardReturn;
 
 /***/ }),
 /* 1 */

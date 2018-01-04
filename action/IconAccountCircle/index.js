@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconAccountCircle", function() { return IconAccountCircle; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_account_circle", function() { return IconAccountCircle; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconAccountCircle() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconAccountCircle() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconAccountCircle);
+exports.IconAccountCircle = IconAccountCircle;
+exports.icon_account_circle = IconAccountCircle;
+exports.default = IconAccountCircle;
 
 /***/ }),
 /* 1 */

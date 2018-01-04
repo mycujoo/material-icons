@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconGolfCourse", function() { return IconGolfCourse; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_golf_course", function() { return IconGolfCourse; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconGolfCourse() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconGolfCourse() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconGolfCourse);
+exports.IconGolfCourse = IconGolfCourse;
+exports.icon_golf_course = IconGolfCourse;
+exports.default = IconGolfCourse;
 
 /***/ }),
 /* 1 */

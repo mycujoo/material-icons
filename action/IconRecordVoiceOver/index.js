@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconRecordVoiceOver", function() { return IconRecordVoiceOver; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_record_voice_over", function() { return IconRecordVoiceOver; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconRecordVoiceOver() {
     return React.createElement(
         "svg",
@@ -82,9 +84,9 @@ function IconRecordVoiceOver() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconRecordVoiceOver);
+exports.IconRecordVoiceOver = IconRecordVoiceOver;
+exports.icon_record_voice_over = IconRecordVoiceOver;
+exports.default = IconRecordVoiceOver;
 
 /***/ }),
 /* 1 */

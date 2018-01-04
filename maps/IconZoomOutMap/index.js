@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconZoomOutMap", function() { return IconZoomOutMap; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_zoom_out_map", function() { return IconZoomOutMap; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconZoomOutMap() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconZoomOutMap() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconZoomOutMap);
+exports.IconZoomOutMap = IconZoomOutMap;
+exports.icon_zoom_out_map = IconZoomOutMap;
+exports.default = IconZoomOutMap;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFormatLineSpacing", function() { return IconFormatLineSpacing; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_format_line_spacing", function() { return IconFormatLineSpacing; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFormatLineSpacing() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFormatLineSpacing() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFormatLineSpacing);
+exports.IconFormatLineSpacing = IconFormatLineSpacing;
+exports.icon_format_line_spacing = IconFormatLineSpacing;
+exports.default = IconFormatLineSpacing;
 
 /***/ }),
 /* 1 */

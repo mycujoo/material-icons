@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconTimer10", function() { return IconTimer10; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_timer_10", function() { return IconTimer10; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconTimer10() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconTimer10() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconTimer10);
+exports.IconTimer10 = IconTimer10;
+exports.icon_timer_10 = IconTimer10;
+exports.default = IconTimer10;
 
 /***/ }),
 /* 1 */

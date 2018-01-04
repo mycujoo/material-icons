@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSimCardAlert", function() { return IconSimCardAlert; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_sim_card_alert", function() { return IconSimCardAlert; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSimCardAlert() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSimCardAlert() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSimCardAlert);
+exports.IconSimCardAlert = IconSimCardAlert;
+exports.icon_sim_card_alert = IconSimCardAlert;
+exports.default = IconSimCardAlert;
 
 /***/ }),
 /* 1 */

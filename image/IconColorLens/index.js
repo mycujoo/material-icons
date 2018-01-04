@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconColorLens", function() { return IconColorLens; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_color_lens", function() { return IconColorLens; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconColorLens() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconColorLens() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconColorLens);
+exports.IconColorLens = IconColorLens;
+exports.icon_color_lens = IconColorLens;
+exports.default = IconColorLens;
 
 /***/ }),
 /* 1 */

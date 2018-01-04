@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconCenterFocusStrong", function() { return IconCenterFocusStrong; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_center_focus_strong", function() { return IconCenterFocusStrong; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconCenterFocusStrong() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconCenterFocusStrong() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconCenterFocusStrong);
+exports.IconCenterFocusStrong = IconCenterFocusStrong;
+exports.icon_center_focus_strong = IconCenterFocusStrong;
+exports.default = IconCenterFocusStrong;
 
 /***/ }),
 /* 1 */

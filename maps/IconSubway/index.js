@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSubway", function() { return IconSubway; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_subway", function() { return IconSubway; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSubway() {
     return React.createElement(
         "svg",
@@ -83,9 +85,9 @@ function IconSubway() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSubway);
+exports.IconSubway = IconSubway;
+exports.icon_subway = IconSubway;
+exports.default = IconSubway;
 
 /***/ }),
 /* 1 */

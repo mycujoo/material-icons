@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconDonutSmall", function() { return IconDonutSmall; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_donut_small", function() { return IconDonutSmall; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconDonutSmall() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconDonutSmall() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconDonutSmall);
+exports.IconDonutSmall = IconDonutSmall;
+exports.icon_donut_small = IconDonutSmall;
+exports.default = IconDonutSmall;
 
 /***/ }),
 /* 1 */

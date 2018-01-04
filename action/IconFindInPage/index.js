@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFindInPage", function() { return IconFindInPage; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_find_in_page", function() { return IconFindInPage; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFindInPage() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFindInPage() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFindInPage);
+exports.IconFindInPage = IconFindInPage;
+exports.icon_find_in_page = IconFindInPage;
+exports.default = IconFindInPage;
 
 /***/ }),
 /* 1 */

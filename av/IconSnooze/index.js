@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconSnooze", function() { return IconSnooze; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_snooze", function() { return IconSnooze; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconSnooze() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconSnooze() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconSnooze);
+exports.IconSnooze = IconSnooze;
+exports.icon_snooze = IconSnooze;
+exports.default = IconSnooze;
 
 /***/ }),
 /* 1 */

@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFlipToBack", function() { return IconFlipToBack; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_flip_to_back", function() { return IconFlipToBack; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFlipToBack() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFlipToBack() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFlipToBack);
+exports.IconFlipToBack = IconFlipToBack;
+exports.icon_flip_to_back = IconFlipToBack;
+exports.default = IconFlipToBack;
 
 /***/ }),
 /* 1 */

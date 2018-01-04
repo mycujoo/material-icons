@@ -66,13 +66,15 @@ module.exports =
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IconFormatIndentDecrease", function() { return IconFormatIndentDecrease; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "icon_format_indent_decrease", function() { return IconFormatIndentDecrease; });
-const React = __webpack_require__(1);
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var React = __webpack_require__(1);
 function IconFormatIndentDecrease() {
     return React.createElement(
         "svg",
@@ -81,9 +83,9 @@ function IconFormatIndentDecrease() {
     );
 }
 
-
-
-/* harmony default export */ __webpack_exports__["default"] = (IconFormatIndentDecrease);
+exports.IconFormatIndentDecrease = IconFormatIndentDecrease;
+exports.icon_format_indent_decrease = IconFormatIndentDecrease;
+exports.default = IconFormatIndentDecrease;
 
 /***/ }),
 /* 1 */
