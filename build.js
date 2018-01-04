@@ -98,7 +98,7 @@ function buildSvg(source) {
                       test: /\.jsx?$/,
                       loader: 'babel-loader',
                       options: {
-                          presets: ['react'],
+                          presets: ['es2015', 'react'],
                       }
                   },
               ],
