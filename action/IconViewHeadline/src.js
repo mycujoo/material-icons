@@ -1,0 +1,13 @@
+const React = require('react');
+function IconViewHeadline() {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 15h16v-2H4v2zm0 4h16v-2H4v2zm0-8h16V9H4v2zm0-6v2h16V5H4z"/></svg>
+    )
+}
+
+export {
+    IconViewHeadline,
+    IconViewHeadline as icon_view_headline,
+}
+
+export default IconViewHeadline
