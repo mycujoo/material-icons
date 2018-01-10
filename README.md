@@ -11,7 +11,7 @@ yarn add https://github.com/mycujoo/material-icons
 and then
 
 ```
-import { IconShare } from 'material-icons/social'
+import IconShare from 'material-icons/social/IconShare'
 
 <IconShare />
 ```
@@ -23,7 +23,7 @@ And done! 🎉
 All icons are prefixed with `Icon` and are in PascalCase.
 
 ```
-import { ${name} as Icon } from 'material-icons/${category}'
+import ${name}from 'material-icons/${category}/${name}'
 ```
 
 ### Finding the icon
@@ -32,10 +32,10 @@ Visit the [icon list](https://material.io/icons/) and import from the category t
 
 ### Example
 
-"3d rotation" icon in the "Action" category would be named `Icon3dRotation` and would be imported from `'material-icons/action'`.
+"3d rotation" icon in the "Action" category would be named `Icon3dRotation` and would be imported from `'material-icons/action/Icon3dRotation'`.
 
 ```
-import { Icon3dRotation } from 'material-icons/action'
+import Icon3dRotation from 'material-icons/action/Icon3dRotation'
 ```
 
 👌
