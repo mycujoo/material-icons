@@ -3,14 +3,24 @@
   "version": "2.4.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "pathRawSvg": "src/mycujoo/svg/raw/",
+    "pathProdSvg": "node_modules/material-design-icons/mycujoo/svg/production"
+  },
+  "bin": {
+    "svgo": "node_modules/.bin/svgo"
+  },
   "scripts": {
-    "build": "node --trace-warnings build.js"
+    "build": "npm run mkdir && npm run opt && node --trace-warnings build.js",
+    "opt": "svgo -f $npm_package_directories_pathRawSvg -o $npm_package_directories_pathProdSvg",
+    "mkdir": "mkdir -p $npm_package_directories_pathProdSvg"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-loader": "^7.1.2",
+    "svgo": "^1.0.4",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
