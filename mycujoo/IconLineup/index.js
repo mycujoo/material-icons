@@ -75,7 +75,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 var React = __webpack_require__(1);
-function IconLineupDark() {
+function IconLineup() {
     return React.createElement(
         "svg",
         { width: "23", height: "18", xmlns: "http://www.w3.org/2000/svg" },
@@ -95,9 +95,9 @@ function IconLineupDark() {
     );
 }
 
-exports.IconLineupDark = IconLineupDark;
-exports.icon_lineup_dark = IconLineupDark;
-exports.default = IconLineupDark;
+exports.IconLineup = IconLineup;
+exports.icon_lineup = IconLineup;
+exports.default = IconLineup;
 
 /***/ }),
 /* 1 */
