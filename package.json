@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "parse": "gulp copy",
-    "pre-build": "npm run parse",
+    "parse": "gulp",
+    "prebuild": "npm run parse",
     "build": "node --trace-warnings build.js"
   },
   "author": "mycujoo.tv",
