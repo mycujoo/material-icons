@@ -21,6 +21,7 @@ const ICON_CATEGORIES = [
   'places',
   'social',
   'toggle',
+  'mycujoo', // custom icons
 ]
 
 const directory = 'node_modules/material-design-icons/'
