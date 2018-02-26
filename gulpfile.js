@@ -17,7 +17,7 @@ const svgminOptions = {
             }
         }, {
             removeAttrs: {
-                attrs: 'fill',
+                attrs: 'fill|fill-rule',
             }
         }
     ]
