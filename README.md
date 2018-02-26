@@ -75,4 +75,8 @@ npm run build # OR node build.js
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. Anything that breaks import syntax is a major version.
+We don't really use semver for versioning. It's kinda like this:
+
+- Anything that breaks import syntax is a major version.
+- Any new icon is a minor version.
+- Any update is a patch.
