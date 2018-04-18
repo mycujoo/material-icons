@@ -23,7 +23,7 @@ And done! 🎉
 All icons are prefixed with `Icon` and are in PascalCase.
 
 ```
-import ${name}from 'material-icons/${category}/${name}'
+import ${name} from 'material-icons/${category}/${name}'
 ```
 
 ### Finding the icon
@@ -59,7 +59,7 @@ yarn
 ### Building
 
 ```
-npm run build # OR node build.js
+yarn run build # OR node build.js
 ```
 
 ### Missing icons?
@@ -68,7 +68,7 @@ This library is using the [GitHub repository](https://github.com/google/material
 
 ```
 yarn upgrade material-design-icons
-npm run build # OR node build.js
+yarn run build # OR node build.js
 ```
 
 ..and now open a PR.
