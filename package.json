@@ -8,7 +8,7 @@
     "prebuild": "npm run parse",
     "build": "node --trace-warnings build.js"
   },
-  "author": "mycujoo.tv",
+  "author": "https://mycujoo.tv",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
