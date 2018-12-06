@@ -9,7 +9,7 @@ const MYCUJOO_ICON_DESTINATION = `${ICON_DIRECTORIES}/mycujoo/svg/production`
 const svgminOptions = {
     plugins: [
         {
-            removeTitle: true
+            removeTitle: true,
         },
         {
             cleanupNumericValues: {
