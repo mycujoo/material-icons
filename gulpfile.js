@@ -15,10 +15,6 @@ const svgminOptions = {
             cleanupNumericValues: {
                 floatPrecision: 2,
             }
-        }, {
-            removeAttrs: {
-                attrs: 'fill|fill-rule',
-            }
         }
     ]
 }
