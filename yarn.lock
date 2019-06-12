@@ -1850,6 +1850,11 @@ graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
 
+gulp-camelcase@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-camelcase/-/gulp-camelcase-2.0.1.tgz#d4264c2dda5e6785ac1f5d7a74be841c4992dea3"
+  integrity sha1-1CZMLdpeZ4WsH116dL6EHEmS3qM=
+
 gulp-svgmin@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/gulp-svgmin/-/gulp-svgmin-1.2.4.tgz#a4aa9e2615cf1105ef555aea86e86296cc20e273"

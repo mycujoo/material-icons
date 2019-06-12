@@ -23,5 +23,8 @@
   },
   "peerDependencies": {
     "react": "^16"
+  },
+  "dependencies": {
+    "gulp-camelcase": "^2.0.1"
   }
 }
