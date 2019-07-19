@@ -37,12 +37,32 @@ module.exports =
 /******/ 	// define getter function for harmony exports
 /******/ 	__webpack_require__.d = function(exports, name, getter) {
 /******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
 /******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
 /******/ 	};
 /******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
@@ -60,38 +80,34 @@ module.exports =
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
+/******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./notification/IconAirlineSeatIndividualSuite/src.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/******/ ({
+
+/***/ "./notification/IconAirlineSeatIndividualSuite/src.js":
+/*!************************************************************!*\
+  !*** ./notification/IconAirlineSeatIndividualSuite/src.js ***!
+  \************************************************************/
+/*! exports provided: IconAirlineSeatIndividualSuite, icon_airline_seat_individual_suite, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-var React = __webpack_require__(1);
-function IconAirlineSeatIndividualSuite() {
-    return React.createElement(
-        "svg",
-        { xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24" },
-        React.createElement("path", { d: "M7 13c1.65 0 3-1.35 3-3S8.65 7 7 7s-3 1.35-3 3 1.35 3 3 3zm12-6h-8v7H3V7H1v10h22v-6c0-2.21-1.79-4-4-4z" })
-    );
-}
-
-exports.IconAirlineSeatIndividualSuite = IconAirlineSeatIndividualSuite;
-exports.icon_airline_seat_individual_suite = IconAirlineSeatIndividualSuite;
-exports.default = IconAirlineSeatIndividualSuite;
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"IconAirlineSeatIndividualSuite\", function() { return IconAirlineSeatIndividualSuite; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"icon_airline_seat_individual_suite\", function() { return IconAirlineSeatIndividualSuite; });\nvar React = __webpack_require__(/*! react */ \"react\");\n\nfunction IconAirlineSeatIndividualSuite() {\n  return React.createElement(\"svg\", {\n    xmlns: \"http://www.w3.org/2000/svg\",\n    width: \"24\",\n    height: \"24\",\n    viewBox: \"0 0 24 24\"\n  }, React.createElement(\"path\", {\n    d: \"M7 13c1.65 0 3-1.35 3-3S8.65 7 7 7s-3 1.35-3 3 1.35 3 3 3zm12-6h-8v7H3V7H1v10h22v-6c0-2.21-1.79-4-4-4z\"\n  }));\n}\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (IconAirlineSeatIndividualSuite);\n\n//# sourceURL=webpack:///./notification/IconAirlineSeatIndividualSuite/src.js?");
 
 /***/ }),
-/* 1 */
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+eval("module.exports = require(\"react\");\n\n//# sourceURL=webpack:///external_%22react%22?");
 
 /***/ })
-/******/ ]);
+
+/******/ });
