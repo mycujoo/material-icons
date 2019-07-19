@@ -85,6 +85,7 @@ function buildSvg(source) {
 
       const compiler = webpack({
           entry: `${__dirname}/${category}/${file.name}/src.js`,
+          mode: 'development',
           output: {
               filename: 'index.js',
               path: path.resolve(category, file.name),
@@ -94,16 +95,18 @@ function buildSvg(source) {
               'react': 'commonjs react'
           },
           module: {
-              loaders: [
+              rules: [
                   {
                       test: /\.jsx?$/,
-                      loader: 'babel-loader',
-                      options: {
-                          presets: ['es2015', 'react'],
+                      use: {
+                        loader: 'babel-loader',
+                        options: {
+                          presets: ['@babel/preset-env', "@babel/preset-react"]
+                        }
                       }
                   },
               ],
-          },
+          }
       })
 
       compiler.run(function(err, stats) {
